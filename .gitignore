@@ -1,0 +1,13 @@
+
+var
+.idea
+.vscode
+
+# Python caches
+*.pyc
+
+# Simulation log files
+simulation-logs
+
+# PCAP files from tests
+*.pcap
