@@ -4,14 +4,17 @@ from marvis import ArgumentParser, Network, DockerNode, Scenario
 def main():
     scenario = Scenario()
 
-    net = Network("10.0.0.0", "255.255.255.0", base="0.0.0.2")
+    net = Network("10.0.0.0", "255.255.255.0")
     net.block_ip_address("10.0.0.1")
 
-    node1 = DockerNode('ping', docker_build_dir='./docker/ping')
-    node2 = DockerNode('pong', docker_build_dir='./docker/pong')
-    channel = net.create_channel(delay="200ms")
-    channel.connect(node1, "10.0.0.17")
+    node1 = DockerNode('mosquitto_server', docker_build_dir='./docker/mosquitto')
+    node2 = DockerNode('mqtt_client', docker_build_dir='./docker/mqtt-client')
+    node3 = DockerNode('mqtt_subscriber', docker_build_dir='./docker/mqtt-subscriber')
+    
+    channel = net.create_channel(delay="50ms")
+    channel.connect(node1)
     channel.connect(node2)
+    channel.connect(node3)
 
     scenario.add_network(net)
 
