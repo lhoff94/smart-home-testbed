@@ -1,7 +1,29 @@
 import paho.mqtt.client as mqtt #import the client
+from datetime import datetime
+import time
+import sys
 
-broker_address="mosquitto" 
+print("Started Client", file = sys.stderr)
 
-client = mqtt.Client("P1") #create new instance
-client.connect(broker_address) #connect to broker
-client.publish("test/test1","ON")#publish
+TOPIC = "home/tutoriallhoff/PubSubDemo"
+BROKER_ADDRESS = "mosquittoserver"
+PORT = 1883
+QOS = 1
+
+if __name__ == "__main__":
+    while True:
+
+        client = mqtt.Client()
+
+        client.connect(BROKER_ADDRESS, PORT)
+
+        print("Connected to MQTT Broker: " + BROKER_ADDRESS, file = sys.stderr)
+
+        DATA = dt_string = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+
+        client.publish(TOPIC, DATA, qos=QOS)
+
+        client.loop()
+
+        time.sleep(10)
+        
