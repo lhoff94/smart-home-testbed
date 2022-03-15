@@ -26,11 +26,16 @@ def main():
     channel_sub.connect(mqttsubscriber)
     channel_sub.connect(bridge)
 
+    bash = DockerNode('bash-attach', docker_build_dir='./docker/bash-attach')
+    channel_sub = net.create_channel(delay="50ms", data_rate="100Mbps")
+    channel_sub.connect(bash)
+    channel_sub.connect(bridge)
+
     scenario.add_network(net)
 
     with scenario as sim:
         # To simulate forever, do not specify the simulation_time parameter.
-        sim.simulate(simulation_time=180)
+        sim.simulate(simulation_time=300)
 
 
 if __name__ == "__main__":
