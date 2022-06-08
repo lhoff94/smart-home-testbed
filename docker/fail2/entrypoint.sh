@@ -5,5 +5,6 @@ until ip a show ns3-eth0 &> /dev/null
   echo 'waiting for network connection ...'
   sleep 1
 done
-echo 'start mqtt client'
+exit 1
+echo 'start payload'
 exec "$@"
