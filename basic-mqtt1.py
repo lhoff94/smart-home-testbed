@@ -7,9 +7,9 @@ def main():
     net = Network("10.0.0.0", "255.255.255.0")
     net.block_ip_address("10.0.0.1")
 
-    node1 = DockerNode('mosquitto_server', docker_build_dir='./docker/mosquitto')
-    node2 = DockerNode('mqtt_client', docker_build_dir='./docker/mqtt-client')
-    node3 = DockerNode('mqtt_subscriber', docker_build_dir='./docker/mqtt-subscriber')
+    node1 = DockerNode('mosquittoserver', docker_build_dir='./docker/mosquitto')
+    node2 = DockerNode('mqttclient', docker_build_dir='./docker/mqtt-client')
+    node3 = DockerNode('mqttsubscriber', docker_build_dir='./docker/mqtt-subscriber')
     
     channel = net.create_channel(delay="50ms")
     channel.connect(node1)

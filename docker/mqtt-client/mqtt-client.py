@@ -10,6 +10,8 @@ BROKER_ADDRESS = "mosquittoserver"
 PORT = 1883
 QOS = 1
 
+time.sleep(100)
+
 if __name__ == "__main__":
     while True:
 
