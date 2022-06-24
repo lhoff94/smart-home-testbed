@@ -1,9 +1,13 @@
 import paho.mqtt.client as mqtt
+import time
 import sys
 
 TOPIC = "home/tutoriallhoff/PubSubDemo"
 BROKER_ADDRESS = "mosquittoserver"
 PORT = 1883
+
+time.sleep(100)
+
 
 def on_message(client, userdata, message):
     msg = str(message.payload.decode("utf-8"))

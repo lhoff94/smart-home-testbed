@@ -30,21 +30,11 @@ def main():
     channel_sub.connect(mqttsubscriber)
     channel_sub.connect(bridge)
 
-    externalnode = InterfaceNode('externalNode','enp8s0')
-    channel_ext = net.create_channel(delay="50ms", data_rate="100Mbps")
-    channel_ext.connect(externalnode)
-    channel_ext.connect(bridge)
 
-
-    bash = DockerNode('bash-attach', docker_build_dir='./docker/bash-attach')
-    channel_bash = net.create_channel(delay="50ms", data_rate="100Mbps")
-    channel_bash.connect(bash)
-    channel_bash.connect(bridge)
-
-    #raspi = SSHNode('raspi', ip='192.168.178.200', username='pi', password='pi-passwd')
-    #channel_bash = net.create_channel(delay="50ms", data_rate="100Mbps")
-    #channel_bash.connect(raspi)
-    #channel_bash.connect(bridge)
+#    bash = DockerNode('bash-attach', docker_build_dir='./docker/bash-attach')
+#    channel_bash = net.create_channel(delay="50ms", data_rate="100Mbps")
+#    channel_bash.connect(bash)
+#    channel_bash.connect(bridge)
 
 
     scenario.add_network(net)

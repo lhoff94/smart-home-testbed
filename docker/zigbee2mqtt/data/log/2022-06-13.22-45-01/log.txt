@@ -1,0 +1,30 @@
+info  2022-06-13 22:45:01: Logging to console and directory: '/app/data/log/2022-06-13.22-45-01' filename: log.txt
+info  2022-06-13 22:45:01: Starting Zigbee2MQTT version 1.25.2 (commit #3c5854fa)
+info  2022-06-13 22:45:01: Starting zigbee-herdsman (0.14.34)
+info  2022-06-13 22:45:20: zigbee-herdsman started (reset)
+info  2022-06-13 22:45:20: Coordinator firmware version: '{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20210708,"transportrev":2},"type":"zStack3x0"}'
+info  2022-06-13 22:45:20: Currently 0 devices are joined:
+warn  2022-06-13 22:45:20: `permit_join` set to  `true` in configuration.yaml.
+warn  2022-06-13 22:45:20: Allowing new devices to join.
+warn  2022-06-13 22:45:20: Set `permit_join` to `false` once you joined all devices.
+info  2022-06-13 22:45:20: Zigbee: allowing new devices to join.
+info  2022-06-13 22:45:20: Connecting to MQTT server at mqtt://broker.hivemq.com
+info  2022-06-13 22:45:20: Connected to MQTT server
+info  2022-06-13 22:45:20: MQTT publish: topic 'zigbee-test/bridge/state', payload '{"state":"online"}'
+info  2022-06-13 22:45:20: Started frontend on port 0.0.0.0:8080
+info  2022-06-13 22:45:47: Zigbee: disabling joining new devices.
+info  2022-06-13 22:45:47: MQTT publish: topic 'zigbee-test/bridge/response/permit_join', payload '{"data":{"time":254,"value":false},"status":"ok","transaction":"us16l-1"}'
+info  2022-06-13 22:45:49: Zigbee: allowing new devices to join.
+info  2022-06-13 22:45:49: MQTT publish: topic 'zigbee-test/bridge/response/permit_join', payload '{"data":{"time":254,"value":true},"status":"ok","transaction":"us16l-2"}'
+info  2022-06-13 22:46:12: Device '0x00124b00245427d4' joined
+info  2022-06-13 22:46:12: MQTT publish: topic 'zigbee-test/bridge/event', payload '{"data":{"friendly_name":"0x00124b00245427d4","ieee_address":"0x00124b00245427d4"},"type":"device_joined"}'
+info  2022-06-13 22:46:12: Starting interview of '0x00124b00245427d4'
+info  2022-06-13 22:46:12: MQTT publish: topic 'zigbee-test/bridge/event', payload '{"data":{"friendly_name":"0x00124b00245427d4","ieee_address":"0x00124b00245427d4","status":"started"},"type":"device_interview"}'
+info  2022-06-13 22:46:51: MQTT publish: topic 'zigbee-test/bridge/response/device/configure', payload '{"data":{"id":"0x00124b00245427d4"},"error":"Device '0x00124b00245427d4' cannot be configured","status":"error","transaction":"us16l-3"}'
+error 2022-06-13 22:48:30: Failed to interview '0x00124b00245427d4', device has not successfully been paired
+info  2022-06-13 22:48:30: MQTT publish: topic 'zigbee-test/bridge/event', payload '{"data":{"friendly_name":"0x00124b00245427d4","ieee_address":"0x00124b00245427d4","status":"failed"},"type":"device_interview"}'
+error 2022-06-14 11:33:55: Adapter disconnected, stopping
+info  2022-06-14 11:33:55: MQTT publish: topic 'zigbee-test/bridge/state', payload '{"state":"offline"}'
+info  2022-06-14 11:33:55: Disconnecting from MQTT server
+info  2022-06-14 11:33:55: Stopping zigbee-herdsman...
+error 2022-06-14 11:33:55: Failed to stop Zigbee2MQTT
