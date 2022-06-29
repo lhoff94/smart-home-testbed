@@ -1,4 +1,4 @@
-from marvis import ArgumentParser, Network, DockerNode, InterfaceNode, SSHNode, SwitchNode, Scenario
+from marvis import ArgumentParser, Network, DockerNode, InterfaceNode, SSHNode, SimulationServer, SwitchNode, Scenario
 #from pycrunch_trace.client.api import trace
 
 
@@ -18,12 +18,15 @@ def main():
     channel_server.connect(mosquittoserver)
     channel_server.connect(bridge)
     
-    
     mqttclient = DockerNode('mqttclient', docker_build_dir='./docker/mqtt-client')
     channel_client = net.create_channel(delay="50ms", data_rate="100Mbps")
     channel_client.connect(mqttclient)
     channel_client.connect(bridge)
 
+    mpymqttclient = DockerNode('mpymqttclient', docker_build_dir='./docker/micropython/mpy-client')
+    channel_client = net.create_channel(delay="50ms", data_rate="100Mbps")
+    channel_client.connect(mpymqttclient)
+    channel_client.connect(bridge)
 
     mqttsubscriber = DockerNode('mqttsubscriber', docker_build_dir='./docker/mqtt-subscriber')
     channel_sub = net.create_channel(delay="50ms", data_rate="100Mbps")
@@ -38,6 +41,8 @@ def main():
 
 
     scenario.add_network(net)
+    driver = SimulationServer(8080)
+    scenario.add_simulation_driver(driver)
 
     with scenario as sim:
         # To simulate forever, do not specify the simulation_time parameter.

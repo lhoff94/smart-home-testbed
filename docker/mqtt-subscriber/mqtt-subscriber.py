@@ -6,7 +6,7 @@ TOPIC = "home/tutoriallhoff/PubSubDemo"
 BROKER_ADDRESS = "mosquittoserver"
 PORT = 1883
 
-time.sleep(100)
+time.sleep(30)
 
 
 def on_message(client, userdata, message):
