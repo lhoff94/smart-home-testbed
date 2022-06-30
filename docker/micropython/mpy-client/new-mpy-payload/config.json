@@ -4,10 +4,13 @@
     
     "physical" : false,
     "temp_sensor_pin": 25,
-    "measure_interval": 60,
+    "co2_sensor_uart":2,
+    
+    "measure_interval": 30,
 
     "mqtt_broker": "broker.mqttdashboard.com",
     "mqtt_topic": "lhoff/station1",
+    "mqtt_port": 1883,
     "mqtt_client_id": "temp-sens-1"
 
 }
