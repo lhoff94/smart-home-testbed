@@ -1,19 +1,27 @@
-from email.headerregistry import ContentTransferEncodingHeader
 import time
 import os
 import json
+# The Micropython Unix isn't including "/lib" in its path
+import sys
+sys.path.append('lib')
 
-from uvicorn import Config
-from temperature_client import TemperatureClient
-from machine import Pin
-from mqtt import MQTTClient
+from lib.mqtt import MQTTClient
 
 import sensors
 
-
 def measure(sensor_list):
-    client = MQTTClient(config['mqtt_client_id'], config['mqtt_broker'], config['mqtt_port'])
-    client.connect()
+    connected = False
+    if config['mqtt_user'] == "" or config['mqtt_password'] == "":
+        client = MQTTClient(config['sensor_name'], config['mqtt_broker'], config['mqtt_port'],keepalive=30)
+    else:
+        client = MQTTClient(config['sensor_name'], config['mqtt_broker'], config['mqtt_port'], config['mqtt_user'], config['mqtt_password'],keepalive=30)
+    while not connected:
+        try:
+            client.connect()
+            connected = True
+            print("Connected to MQTT Server")
+        except OSError:
+            print(f"Could not yet reach host {config['mqtt_broker']} on port {config['mqtt_port']}")
 
 
     while True:
@@ -28,44 +36,25 @@ with open('config.json') as config_file:
 
 try:
     if (os.uname()[0]=='esp32'):
+        from machine import Pin
         physical = True
     else:
         physical = False
+        #global endpoint
+        #endpoint = f"{config['mock_endpoint']}/{config['sensor_name']}/" 
 except AttributeError:
     physical = False
+    time.sleep(30)
+    physical = False
+    #global endpoint
+    #endpoint = f"{config['mock_endpoint']}/{config['sensor_name']}/"
 
-button = Pin(2, Pin.IN, Pin.PULL_UP)
-if button.value():
-    sensor_list = []
-    sensor_list.append(['luminance',sensors.light_sensor(scl=22, sda=21)])
-    sensor_list.append(['pressure',sensors.pressure_sensor(scl=5, sda=4)])
-    sensor_list.append(['co2level',sensors.co2_sensor(2)])
-    sensor_list.append(['temperature', sensors.temperature_sensor(config['temp_sensor_pin'])])
+
+
+sensor_list = []
+sensor_list.append(['luminance',sensors.light_sensor(physical, scl=22, sda=21)])
+sensor_list.append(['pressure',sensors.pressure_sensor(physical, scl=5, sda=4)])
+sensor_list.append(['co2level',sensors.co2_sensor(physical, 2)])
+sensor_list.append(['temperature', sensors.temperature_sensor(physical, config['temp_sensor_pin'])])
   
-    measure(sensor_list)
-
-
-#if physical:
-#    pass
-
-
-
-
-    
-
-#time.sleep(5)
-#print('Starting measurment')
-#sensor_temp.start()
-#    while True:
-#        sensor_temp.publishTemperature()
-#        time.sleep(config['measure_interval'])
-
-
-
-
-##config['mqtt_client_id'],
-  ##      config['mqtt_broker'],
-    ##    physical,
-      ##  config['temp_sensor_pin'],
-        ##False,
-        ##config['mqtt_topic']
+measure(sensor_list)

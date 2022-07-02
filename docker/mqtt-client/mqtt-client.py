@@ -5,7 +5,7 @@ import sys
 
 print("Started Client", file = sys.stderr)
 
-TOPIC = "home/tutoriallhoff/PubSubDemo"
+TOPIC = "station1/PythonClient"
 BROKER_ADDRESS = "mosquittoserver"
 PORT = 1883
 QOS = 1

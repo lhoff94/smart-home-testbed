@@ -2,7 +2,7 @@ import paho.mqtt.client as mqtt
 import time
 import sys
 
-TOPIC = "home/tutoriallhoff/PubSubDemo"
+TOPIC = "station1/#"
 BROKER_ADDRESS = "mosquittoserver"
 PORT = 1883
 

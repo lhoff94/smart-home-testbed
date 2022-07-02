@@ -41,13 +41,13 @@ class TemperatureClient:
         self.client.connect()
         print('initiated')
 
-    def publishTemperature(self):
+    def publishResults(self):
         """
         Reads the current temperature and publishes a JSON payload on the
         configured topic, e.g., `{"unit": "F", "degrees": 72.5}`
         """
-        t = self.sensor.read_temp(self.fahrenheit)
-        payload = dict(degrees=t)
+        temperature = self.sensor.read_temp(self.fahrenheit)
+        payload = dict(temperature=temperature)
         if self.fahrenheit:
             payload['unit'] = 'F'
         else:
@@ -62,6 +62,6 @@ class TemperatureClient:
         :type interval: int
         """
         while True:
-            self.publishTemperature()
+            self.publishResults()
             print('published temp')
             time.sleep(interval)
