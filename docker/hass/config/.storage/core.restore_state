@@ -13,16 +13,104 @@
                     "user_id": "3ac3b75756ef48b9a40439953b3640b7",
                     "friendly_name": "marvis"
                 },
-                "last_changed": "2022-07-04T16:09:45.197181+00:00",
-                "last_updated": "2022-07-04T16:09:45.197181+00:00",
+                "last_changed": "2022-07-04T17:01:50.247068+00:00",
+                "last_updated": "2022-07-04T17:01:54.135771+00:00",
                 "context": {
-                    "id": "01G74ZK4FDEAW13A6H89Q3XR3P",
+                    "id": "01G752JM2Q61A3J2PW0Q05TZGP",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-07-04T16:12:20.507140+00:00"
+            "last_seen": "2022-07-04T17:01:54.135858+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.s1_temperature",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "S1-Temperature"
+                },
+                "last_changed": "2022-07-04T17:01:54.129842+00:00",
+                "last_updated": "2022-07-04T17:01:54.129842+00:00",
+                "context": {
+                    "id": "01G752JM2H32QPDK92ZKARMH5Y",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "\u00b0C"
+            },
+            "last_seen": "2022-07-04T17:01:54.135858+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.s1_luminance",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "lux",
+                    "friendly_name": "S1-Luminance"
+                },
+                "last_changed": "2022-07-04T17:01:54.130044+00:00",
+                "last_updated": "2022-07-04T17:01:54.130044+00:00",
+                "context": {
+                    "id": "01G752JM2JK0R5PHKW6KSVEKN4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "lux"
+            },
+            "last_seen": "2022-07-04T17:01:54.135858+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.s1_co2",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "ppm",
+                    "friendly_name": "S1-CO2"
+                },
+                "last_changed": "2022-07-04T17:01:54.130184+00:00",
+                "last_updated": "2022-07-04T17:01:54.130184+00:00",
+                "context": {
+                    "id": "01G752JM2JKWXJEYTDMWHV2H6E",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "ppm"
+            },
+            "last_seen": "2022-07-04T17:01:54.135858+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.s1_luftdruck",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "hPa",
+                    "friendly_name": "S1-Luftdruck"
+                },
+                "last_changed": "2022-07-04T17:01:54.130321+00:00",
+                "last_updated": "2022-07-04T17:01:54.130321+00:00",
+                "context": {
+                    "id": "01G752JM2JR07H9BZ7P1JJ1GYR",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "hPa"
+            },
+            "last_seen": "2022-07-04T17:01:54.135858+00:00"
         }
     ]
 }

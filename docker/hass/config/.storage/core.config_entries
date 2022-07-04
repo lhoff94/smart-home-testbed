@@ -29,6 +29,23 @@
                 "source": "onboarding",
                 "unique_id": null,
                 "disabled_by": null
+            },
+            {
+                "entry_id": "50e0f76bf1506bc263a163c6fb12e182",
+                "version": 1,
+                "domain": "mqtt",
+                "title": "mosquittoserver",
+                "data": {
+                    "broker": "mosquittoserver",
+                    "port": 1883,
+                    "discovery": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
             }
         ]
     }
