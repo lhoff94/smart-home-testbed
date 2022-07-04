@@ -6,7 +6,7 @@ ENTRYPOINT ["/entrypoint.sh"]
 
 RUN apt update && apt install -y --no-install-recommends iproute2
 
-RUN apt install -y --no-install-recommends python3-pip iputils-ping
+RUN apt install -y --no-install-recommends python3-pip iputils-ping wget
 
 RUN pip3 install paho-mqtt
 
