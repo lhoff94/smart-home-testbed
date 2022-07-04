@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.marvis",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "marvis",
+                    "user_id": "084a492470bd46a6a540e6a16aa90c61",
+                    "friendly_name": "marvis"
+                },
+                "last_changed": "2022-07-04T15:51:06.275619+00:00",
+                "last_updated": "2022-07-04T15:51:06.275619+00:00",
+                "context": {
+                    "id": "01G74YGZS35XDCB8YY3QXN5RC1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-04T15:52:45.971695+00:00"
+        }
+    ]
+}

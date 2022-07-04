@@ -9,9 +9,18 @@ def main():
 
     bridge = SwitchNode('br-1')
 
-    hass = DockerNode('hass',docker_image='ghcr.io/home-assistant/home-assistant:stable',volumes={'/home/lhoff/masterarbeit/smart-home-testbed/docker/hass/config/': {'bind': '/config', 'mode': 'rw'}}, exposed_ports={'8123':'8123'})
+    hass = DockerNode(
+        'hass',
+        docker_image='ghcr.io/home-assistant/home-assistant:stable',
+        volumes={'/home/lhoff/masterarbeit/smart-home-testbed/docker/hass/config': {'bind': '/config', 'mode': 'rw'}},
+        exposed_ports={'8123':'8123'})
     channel_sub = net.create_channel(delay="50ms", data_rate="100Mbps")
     channel_sub.connect(hass)
+    channel_sub.connect(bridge)
+
+    bash = DockerNode('bash-attach', docker_build_dir='./docker/bash-attach')
+    channel_sub = net.create_channel(delay="50ms", data_rate="100Mbps")
+    channel_sub.connect(bash)
     channel_sub.connect(bridge)
 
     scenario.add_network(net)

@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "auth_provider.homeassistant",
+    "data": {
+        "users": [
+            {
+                "username": "marvis",
+                "password": "JDJiJDEyJFF0c0RTYlQxZS9vWENBclZOazFCZC5CQXVIbmJyRjN5enp0dTM0YXpVbTdaSW9ZVzZ0OXR5"
+            }
+        ]
+    }
+}

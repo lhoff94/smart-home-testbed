@@ -1,0 +1,31 @@
+{
+    "version": 1,
+    "minor_version": 6,
+    "key": "core.entity_registry",
+    "data": {
+        "entities": [
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "person.marvis",
+                "hidden_by": null,
+                "icon": null,
+                "id": "3d2702ea439a7718ec38c29b3b98559b",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "marvis",
+                "platform": "person",
+                "supported_features": 0,
+                "unique_id": "marvis",
+                "unit_of_measurement": null
+            }
+        ]
+    }
+}

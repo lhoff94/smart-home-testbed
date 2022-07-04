@@ -1,4 +1,4 @@
-from marvis import ArgumentParser, Network, DockerNode, Scenario, SimulationServer
+from marvis import ArgumentParser, Network, DockerNode, Scenario#, SimulationServer
 
 
 def main():
@@ -14,8 +14,8 @@ def main():
     channel.connect(node2)
 
     scenario.add_network(net)
-    driver = SimulationServer(8080)
-    scenario.add_simulation_driver(driver)
+    #driver = SimulationServer(8080)
+    #scenario.add_simulation_driver(driver)
 
     with scenario as sim:
         # To simulate forever, do not specify the simulation_time parameter.
