@@ -9,7 +9,7 @@ def main():
 
     node1 = DockerNode('pong', docker_build_dir='./docker/pong')
     node2 = SwitchNode('bridge-1')
-    node3 = SSHNode('ping', ip='192.168.178.200', username='pi', password='pi-passwd')
+    node3 = SSHNode('ping', ip='172.16.0.104', bridge='ns3-ping', ifname='wlan0', username='pi', password='pi-passwd')
 
     channel1 = net.create_channel("channel1")
     channel1.connect(node1)
