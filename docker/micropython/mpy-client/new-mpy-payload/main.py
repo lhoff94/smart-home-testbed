@@ -9,7 +9,7 @@ from lib.mqtt import MQTTClient
 
 import sensors
 
-def measure(sensor_list):
+def connect():
     connected = False
     if config['mqtt_user'] == "" or config['mqtt_password'] == "":
         client = MQTTClient(config['sensor_name'], config['mqtt_broker'], config['mqtt_port'],keepalive=30)
@@ -22,12 +22,18 @@ def measure(sensor_list):
             print("Connected to MQTT Server")
         except OSError:
             print(f"Could not yet reach host {config['mqtt_broker']} on port {config['mqtt_port']}")
+    return client
 
-
+def measure(sensor_list):
+    client = connect()
     while True:
         print("Sending measurements")
         for sensor in sensor_list:
-            client.publish(config['mqtt_topic']+ "/" + sensor[0], str(sensor[1].read()))
+            try:
+                client.publish(config['mqtt_topic']+ "/" + sensor[0], str(sensor[1].read()))
+            except OSError:
+                print("Connection lost, try reconnect")
+                client = connect()
         time.sleep(config['measure_interval'])
 
 

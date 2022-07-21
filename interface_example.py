@@ -8,8 +8,8 @@ def main():
     net.block_ip_address("10.0.0.1")
 
     node1 = DockerNode('ping', docker_build_dir='./docker/ping2')
-    node2 = InterfaceNode('pong','enx000ec6fe5586')
-    channel = net.create_channel(delay="200ms")
+    node2 = InterfaceNode('pong','veth-int')
+    channel = net.create_channel(delay="20ms")
     channel.connect(node1, "10.0.0.17")
     channel.connect(node2)
 
@@ -17,7 +17,7 @@ def main():
 
     with scenario as sim:
         # To simulate forever, do not specify the simulation_time parameter.
-        sim.simulate(simulation_time=30)
+        sim.simulate()
 
 
 if __name__ == "__main__":

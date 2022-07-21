@@ -1,1 +1,19 @@
-{}
+{
+    "0x00124b00245427d4": {
+        "occupancy": true,
+        "tamper": false,
+        "battery_low": false,
+        "voltage": 2700,
+        "battery": 9
+    },
+    "0xb4e3f9fffeb3513e": {
+        "battery": 100,
+        "update": {
+            "state": "idle"
+        }
+    },
+    "0xec1bbdfffe2ccf10": {
+        "state": "ON",
+        "brightness": 1
+    }
+}

@@ -1,1 +1,35 @@
-2022-07-04 17:01:54 ERROR (MainThread) [homeassistant.components.mqtt.client] Failed to connect to MQTT server due to exception: [Errno 113] Host is unreachable
+2022-07-07 17:01:29 ERROR (MainThread) [homeassistant.components.mqtt.client] Failed to connect to MQTT server due to exception: [Errno 113] Host is unreachable
+2022-07-07 17:07:13 ERROR (MainThread) [homeassistant.helpers.template] Template variable error: 'value_json' is undefined when rendering '{{ value_json.occupancy }}'
+2022-07-07 17:07:13 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: , template: {{ value_json.occupancy }})
+2022-07-07 17:07:13 ERROR (MainThread) [homeassistant.helpers.template] Template variable error: 'value_json' is undefined when rendering '{{ value_json.battery_low }}'
+2022-07-07 17:07:13 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: , template: {{ value_json.battery_low }})
+2022-07-07 17:07:13 ERROR (MainThread) [homeassistant.helpers.template] Template variable error: 'value_json' is undefined when rendering '{{ value_json.tamper }}'
+2022-07-07 17:07:13 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: , template: {{ value_json.tamper }})
+2022-07-07 17:07:13 ERROR (MainThread) [homeassistant.helpers.template] Template variable error: 'value_json' is undefined when rendering '{{ value_json.battery }}'
+2022-07-07 17:07:24 ERROR (MainThread) [homeassistant.helpers.template] Template variable error: 'value_json' is undefined when rendering '{{ value_json.battery }}'
+2022-07-07 17:07:24 ERROR (MainThread) [homeassistant.helpers.template] Template variable error: 'value_json' is undefined when rendering '{{ value_json.action }}'
+2022-07-07 17:07:24 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: , template: {{ value_json['update']['state'] == "available" }})
+2022-07-07 17:07:37 ERROR (MainThread) [homeassistant.helpers.template] Template variable error: 'value_json' is undefined when rendering '{{ value_json.battery }}'
+2022-07-07 17:07:37 ERROR (MainThread) [homeassistant.helpers.template] Template variable error: 'value_json' is undefined when rendering '{{ value_json.action }}'
+2022-07-07 17:07:37 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: , template: {{ value_json['update']['state'] == "available" }})
+2022-07-07 17:07:42 ERROR (MainThread) [homeassistant.helpers.template] Template variable error: 'value_json' is undefined when rendering '{{ value_json.battery }}'
+2022-07-07 17:07:42 ERROR (MainThread) [homeassistant.helpers.template] Template variable error: 'value_json' is undefined when rendering '{{ value_json.action }}'
+2022-07-07 17:07:42 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: , template: {{ value_json['update']['state'] == "available" }})
+2022-07-07 17:10:47 ERROR (MainThread) [homeassistant.util.logging] Exception in state_received when handling msg on 'zigbee/0xec1bbdfffe2ccf10': ''
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/mqtt/debug_info.py", line 47, in wrapper
+    msg_callback(msg)
+  File "/usr/src/homeassistant/homeassistant/components/mqtt/light/schema_json.py", line 320, in state_received
+    values = json.loads(msg.payload)
+  File "/usr/local/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2022-07-07 17:10:47 ERROR (MainThread) [homeassistant.helpers.template] Template variable error: 'value_json' is undefined when rendering '{{ value_json.power_on_behavior }}'
+2022-07-07 17:10:47 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: , template: {{ value_json.power_on_behavior }})
+2022-07-07 17:10:47 ERROR (MainThread) [homeassistant.components.mqtt.select] Invalid option for select.0xec1bbdfffe2ccf10_power_on_behavior: '' (valid options: ['off', 'previous', 'on'])
+2022-07-07 17:10:47 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: , template: {{ value_json['update']['state'] == "available" }})

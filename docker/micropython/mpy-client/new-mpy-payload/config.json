@@ -9,7 +9,7 @@
     
     "measure_interval": 30,
 
-    "mock_endpoint": "http://host:8080/",
+    "mock_endpoint": "http://host:9000/",
 
     "mqtt_broker": "mosquittoserver",
     "mqtt_topic": "station1",

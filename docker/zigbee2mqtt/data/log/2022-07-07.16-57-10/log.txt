@@ -1,0 +1,14 @@
+info  2022-07-07 16:57:10: Logging to console and directory: '/app/data/log/2022-07-07.16-57-10' filename: log.txt
+info  2022-07-07 16:57:10: Starting Zigbee2MQTT version 1.26.0 (commit #cd23aea)
+info  2022-07-07 16:57:10: Starting zigbee-herdsman (0.14.40)
+error 2022-07-07 16:57:10: Error while starting zigbee-herdsman
+error 2022-07-07 16:57:10: Failed to start zigbee
+error 2022-07-07 16:57:10: Check https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html for possible solutions
+error 2022-07-07 16:57:10: Exiting...
+error 2022-07-07 16:57:10: Error: No path provided and failed to auto detect path
+    at Function.create (/app/node_modules/zigbee-herdsman/src/adapter/adapter.ts:81:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Controller.start (/app/node_modules/zigbee-herdsman/src/controller/controller.ts:120:24)
+    at Zigbee.start (/app/lib/zigbee.ts:58:27)
+    at Controller.start (/app/lib/controller.ts:101:27)
+    at start (/app/index.js:109:5)

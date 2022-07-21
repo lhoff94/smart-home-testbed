@@ -2,5 +2,5 @@
 
 while true
 do
-    ping 172.16.0.104
+    ping 10.0.0.4
 done

@@ -1,0 +1,82 @@
+{
+    "version": 1,
+    "minor_version": 3,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "50e0f76bf1506bc263a163c6fb12e182"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0xb4e3f9fffeb3513e"
+                    ]
+                ],
+                "manufacturer": "IKEA",
+                "model": "STYRBAR remote control N2 (E2001/E2002)",
+                "name": "RemoteControll",
+                "sw_version": "1.0.024",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "04d156a7e254022576480557859eb044",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "50e0f76bf1506bc263a163c6fb12e182"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00124b00245427d4"
+                    ]
+                ],
+                "manufacturer": "SONOFF",
+                "model": "Motion sensor (SNZB-03)",
+                "name": "MotionSensor",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "9cf1f742fecb9c7ae83f172d88175fc9",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "50e0f76bf1506bc263a163c6fb12e182"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0xec1bbdfffe2ccf10"
+                    ]
+                ],
+                "manufacturer": "IKEA",
+                "model": "TRADFRI driver for wireless control (30 watt) (ICPSHC24-30EU-IL-1)",
+                "name": "LightBulb1",
+                "sw_version": "1.2.245",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "106a79e07b84984738f6bb9c09ad6b37",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}
