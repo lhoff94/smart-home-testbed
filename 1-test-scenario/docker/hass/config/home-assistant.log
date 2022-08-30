@@ -1,0 +1,1 @@
+2022-08-30 15:09:41.829 ERROR (MainThread) [homeassistant.components.mqtt.client] Failed to connect to MQTT server due to exception: [Errno 113] Host is unreachable

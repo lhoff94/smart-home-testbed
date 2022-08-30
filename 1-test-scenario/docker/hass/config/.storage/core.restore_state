@@ -1,0 +1,607 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.marvis",
+        "state": "unknown",
+        "attributes": {
+          "editable": false,
+          "id": "marvis",
+          "user_id": "3ac3b75756ef48b9a40439953b3640b7",
+          "friendly_name": "marvis"
+        },
+        "last_changed": "2022-08-30T15:09:37.714407+00:00",
+        "last_updated": "2022-08-30T15:09:41.939885+00:00",
+        "context": {
+          "id": "01GBQMT4NKC1DRH1T4WWPAABWF",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.new_automation",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-08-29T22:22:17.590894+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1661469166752",
+          "friendly_name": "ZigbeeBulb On"
+        },
+        "last_changed": "2022-08-30T15:09:38.785378+00:00",
+        "last_updated": "2022-08-30T15:09:38.785378+00:00",
+        "context": {
+          "id": "01GBQMT1K1534Y78YZ2XAVP10W",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.zigbeebulb_off",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-08-29T22:22:07.290902+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1661469229369",
+          "friendly_name": "ZigbeeBulb Off"
+        },
+        "last_changed": "2022-08-30T15:09:38.785463+00:00",
+        "last_updated": "2022-08-30T15:09:38.785463+00:00",
+        "context": {
+          "id": "01GBQMT1K195WTWWV8QSNRKD2X",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.new_automation_2",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-08-29T22:22:01.660578+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1661469299386",
+          "friendly_name": "ZigbeeBulbBrighter"
+        },
+        "last_changed": "2022-08-30T15:09:38.785540+00:00",
+        "last_updated": "2022-08-30T15:09:38.785540+00:00",
+        "context": {
+          "id": "01GBQMT1K1PR26K7AD1KCHT7M0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.zigbeebulb_darker",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-08-29T22:22:00.437121+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1661469340189",
+          "friendly_name": "ZigbeeBulb Darker"
+        },
+        "last_changed": "2022-08-30T15:09:38.785604+00:00",
+        "last_updated": "2022-08-30T15:09:38.785604+00:00",
+        "context": {
+          "id": "01GBQMT1K159XMPK0A620KQ41X",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.s1_temperature",
+        "state": "unknown",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "friendly_name": "S1-Temperature"
+        },
+        "last_changed": "2022-08-30T15:09:50.563320+00:00",
+        "last_updated": "2022-08-30T15:09:50.563320+00:00",
+        "context": {
+          "id": "01GBQMTD33PN16D4F9GDYZWPCS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.s1_luminance",
+        "state": "unknown",
+        "attributes": {
+          "unit_of_measurement": "lux",
+          "friendly_name": "S1-Luminance"
+        },
+        "last_changed": "2022-08-30T15:09:50.563418+00:00",
+        "last_updated": "2022-08-30T15:09:50.563418+00:00",
+        "context": {
+          "id": "01GBQMTD33TWNWB7ZFQX4XTC97",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "lux"
+      },
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.s1_co2",
+        "state": "unknown",
+        "attributes": {
+          "unit_of_measurement": "ppm",
+          "friendly_name": "S1-CO2"
+        },
+        "last_changed": "2022-08-30T15:09:50.563460+00:00",
+        "last_updated": "2022-08-30T15:09:50.563460+00:00",
+        "context": {
+          "id": "01GBQMTD339871FKHTER0EB95C",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "ppm"
+      },
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.s1_luftdruck",
+        "state": "unknown",
+        "attributes": {
+          "unit_of_measurement": "hPa",
+          "friendly_name": "S1-Luftdruck"
+        },
+        "last_changed": "2022-08-30T15:09:50.563497+00:00",
+        "last_updated": "2022-08-30T15:09:50.563497+00:00",
+        "context": {
+          "id": "01GBQMTD33AQBJGEV4S6BTYWED",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "hPa"
+      },
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.motionsensor_occupancy",
+        "state": "off",
+        "attributes": {
+          "device_class": "motion",
+          "friendly_name": "MotionSensor occupancy"
+        },
+        "last_changed": "2022-08-30T22:06:29.058239+00:00",
+        "last_updated": "2022-08-30T22:06:29.058239+00:00",
+        "context": {
+          "id": "01GBRCN9P2KKQ01MM8AMFYWV34",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.motionsensor_battery_low",
+        "state": "off",
+        "attributes": {
+          "device_class": "battery",
+          "friendly_name": "MotionSensor battery low"
+        },
+        "last_changed": "2022-08-30T15:10:00.469733+00:00",
+        "last_updated": "2022-08-30T15:10:00.469733+00:00",
+        "context": {
+          "id": "01GBQMTPRNFTZFR5783ECF3GH9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.motionsensor_tamper",
+        "state": "off",
+        "attributes": {
+          "device_class": "tamper",
+          "friendly_name": "MotionSensor tamper"
+        },
+        "last_changed": "2022-08-30T15:10:00.469829+00:00",
+        "last_updated": "2022-08-30T15:10:00.469829+00:00",
+        "context": {
+          "id": "01GBQMTPRNAG2GPGZBQZKE7PFE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.motionsensor_battery",
+        "state": "9",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "MotionSensor battery"
+        },
+        "last_changed": "2022-08-30T15:10:00.469490+00:00",
+        "last_updated": "2022-08-30T15:10:00.469490+00:00",
+        "context": {
+          "id": "01GBQMTPRNHPMK1YCXJ2NP24G8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "9",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.remotecontroll_battery",
+        "state": "100",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "RemoteControll battery"
+        },
+        "last_changed": "2022-08-30T15:10:00.468441+00:00",
+        "last_updated": "2022-08-30T15:10:00.468441+00:00",
+        "context": {
+          "id": "01GBQMTPRM3QC25JKQJQRTM9M5",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "100",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.remotecontroll_action",
+        "state": "None",
+        "attributes": {
+          "icon": "mdi:gesture-double-tap",
+          "friendly_name": "RemoteControll action"
+        },
+        "last_changed": "2022-08-30T15:10:00.468593+00:00",
+        "last_updated": "2022-08-30T15:10:00.468593+00:00",
+        "context": {
+          "id": "01GBQMTPRMK9VBBEDKR37RBJ8D",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "None",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.remotecontroll_update_available",
+        "state": "off",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "RemoteControll update available"
+        },
+        "last_changed": "2022-08-30T15:10:00.468701+00:00",
+        "last_updated": "2022-08-30T15:10:00.468701+00:00",
+        "context": {
+          "id": "01GBQMTPRM53503029WNAFB1P6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "light.zigbeebulb",
+        "state": "on",
+        "attributes": {
+          "min_mireds": 250,
+          "max_mireds": 454,
+          "effect_list": [
+            "blink",
+            "breathe",
+            "okay",
+            "channel_change",
+            "finish_effect",
+            "stop_effect"
+          ],
+          "supported_color_modes": [
+            "color_temp"
+          ],
+          "color_mode": "color_temp",
+          "brightness": 150,
+          "color_temp": 411,
+          "hs_color": [
+            29.057,
+            75.004
+          ],
+          "rgb_color": [
+            255,
+            156,
+            63
+          ],
+          "xy_color": [
+            0.554,
+            0.389
+          ],
+          "friendly_name": "ZigbeeBulb",
+          "supported_features": 47
+        },
+        "last_changed": "2022-08-30T15:10:00.470717+00:00",
+        "last_updated": "2022-08-30T15:10:00.470717+00:00",
+        "context": {
+          "id": "01GBQMTPRP4ZDGGWMNS4041MQZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "select.zigbeebulb_power_on_behavior",
+        "state": "unknown",
+        "attributes": {
+          "options": [
+            "off",
+            "previous",
+            "on"
+          ],
+          "icon": "mdi:power-settings",
+          "friendly_name": "ZigbeeBulb power on behavior"
+        },
+        "last_changed": "2022-08-30T15:09:59.811537+00:00",
+        "last_updated": "2022-08-30T15:09:59.811537+00:00",
+        "context": {
+          "id": "01GBQMTP4319SNJZB2VX13TB1F",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.zigbeebulb_update_available",
+        "state": "off",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "ZigbeeBulb update available"
+        },
+        "last_changed": "2022-08-30T15:10:00.470539+00:00",
+        "last_updated": "2022-08-30T15:10:00.470539+00:00",
+        "context": {
+          "id": "01GBQMTPRP7MJ68T1J0MNX226T",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-30T22:09:41.964888+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "light.lightbulb1",
+        "state": "on",
+        "attributes": {
+          "effect_list": [
+            "blink",
+            "breathe",
+            "okay",
+            "channel_change",
+            "finish_effect",
+            "stop_effect"
+          ],
+          "supported_color_modes": [
+            "brightness"
+          ],
+          "color_mode": "brightness",
+          "brightness": 1,
+          "friendly_name": "LightBulb1",
+          "supported_features": 45
+        },
+        "last_changed": "2022-08-25T23:04:52.388206+00:00",
+        "last_updated": "2022-08-25T23:04:52.388206+00:00",
+        "context": {
+          "id": "01GBBM0KX4RFM9SYAT8PQ5N82W",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-25T23:08:42.439108+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "select.lightbulb1_power_on_behavior",
+        "state": "unknown",
+        "attributes": {
+          "options": [
+            "off",
+            "previous",
+            "on"
+          ],
+          "icon": "mdi:power-settings",
+          "friendly_name": "LightBulb1 power on behavior"
+        },
+        "last_changed": "2022-08-25T23:04:20.068769+00:00",
+        "last_updated": "2022-08-25T23:04:20.068769+00:00",
+        "context": {
+          "id": "01GBBKZMB4FQ1XQM3B9X2ZSANY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-25T23:08:42.549091+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.lightbulb1_update_available",
+        "state": "off",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "LightBulb1 update available"
+        },
+        "last_changed": "2022-08-25T23:04:52.388053+00:00",
+        "last_updated": "2022-08-25T23:04:52.388053+00:00",
+        "context": {
+          "id": "01GBBM0KX4XZXK3BYP4E6FYTBN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-25T23:08:42.549271+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "light.0x2c1165fffe877958",
+        "state": "on",
+        "attributes": {
+          "min_mireds": 250,
+          "max_mireds": 454,
+          "effect_list": [
+            "blink",
+            "breathe",
+            "okay",
+            "channel_change",
+            "finish_effect",
+            "stop_effect"
+          ],
+          "supported_color_modes": [
+            "color_temp"
+          ],
+          "color_mode": "color_temp",
+          "brightness": 200,
+          "color_temp": 454,
+          "hs_color": [
+            29.79,
+            84.553
+          ],
+          "rgb_color": [
+            255,
+            146,
+            39
+          ],
+          "xy_color": [
+            0.579,
+            0.388
+          ],
+          "friendly_name": "ZigbeeBulb",
+          "supported_features": 47
+        },
+        "last_changed": "2022-08-25T23:16:01.221463+00:00",
+        "last_updated": "2022-08-25T23:17:08.436180+00:00",
+        "context": {
+          "id": "01GBBMQ2GCXK4KEZSP7A3FPQ61",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-25T23:18:02.511580+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "select.0x2c1165fffe877958_power_on_behavior",
+        "state": "unknown",
+        "attributes": {
+          "options": [
+            "off",
+            "previous",
+            "on"
+          ],
+          "icon": "mdi:power-settings",
+          "friendly_name": "LightBulb power on behavior"
+        },
+        "last_changed": "2022-08-25T23:09:15.031370+00:00",
+        "last_updated": "2022-08-25T23:17:49.378104+00:00",
+        "context": {
+          "id": "01GBBMRAP2GPHSJEDQTXNETNGW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-25T23:18:02.514537+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.0x2c1165fffe877958_update_available",
+        "state": "off",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "LightBulb update available"
+        },
+        "last_changed": "2022-08-25T23:09:29.527678+00:00",
+        "last_updated": "2022-08-25T23:17:49.379825+00:00",
+        "context": {
+          "id": "01GBBMRAP3E1SPYN2RM8R1RWED",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-25T23:18:02.518424+00:00"
+    }
+  ]
+}
