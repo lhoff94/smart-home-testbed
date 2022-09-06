@@ -1,3 +1,6 @@
 [submodule "service-tools/service-tools/mhz19-mock"]
 	path = service-tools/service-tools/mhz19-mock
 	url = https://github.com/lhoff94/mhz19-mock
+[submodule "2-case-study/mpy/MicroPython-smart-home-client"]
+	path = 2-case-study/mpy/MicroPython-smart-home-client
+	url = https://github.com/lhoff94/MicroPython-smart-home-client
