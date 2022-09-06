@@ -1,5 +1,7 @@
 #Ignore Logs directories
-1-test-scenario/docker/zigbee2mqtt/data/log
+1-case-study/docker/zigbee2mqtt/data/log
+2-case-study/docker/zigbee2mqtt/data/log
+core
 
 simulation-logs
 
