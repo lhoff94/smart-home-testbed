@@ -1,0 +1,3 @@
+[submodule "service-tools/service-tools/mhz19-mock"]
+	path = service-tools/service-tools/mhz19-mock
+	url = https://github.com/lhoff94/mhz19-mock
