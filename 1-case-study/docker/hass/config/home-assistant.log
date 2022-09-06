@@ -1,0 +1,2 @@
+2022-09-06 00:50:53.722 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2022-09-06 00:54:26.283 ERROR (MainThread) [frontend.js.latest.202208020] :0:0 ResizeObserver loop completed with undelivered notifications.

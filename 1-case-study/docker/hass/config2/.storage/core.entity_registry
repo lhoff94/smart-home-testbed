@@ -1,0 +1,76 @@
+{
+    "version": 1,
+    "key": "core.entity_registry",
+    "data": {
+        "entities": [
+            {
+                "entity_id": "binary_sensor.updater",
+                "config_entry_id": null,
+                "device_id": null,
+                "area_id": null,
+                "unique_id": "updater",
+                "platform": "updater",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "Updater",
+                "original_icon": null
+            },
+            {
+                "entity_id": "person.marvis",
+                "config_entry_id": null,
+                "device_id": null,
+                "area_id": null,
+                "unique_id": "marvis",
+                "platform": "person",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "marvis",
+                "original_icon": null
+            },
+            {
+                "entity_id": "weather.home",
+                "config_entry_id": "b96573d339493f515eba85ba64a35713",
+                "device_id": "21693987704b1d983b2743143e1e7505",
+                "area_id": null,
+                "unique_id": "home",
+                "platform": "met",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "Home",
+                "original_icon": null
+            },
+            {
+                "entity_id": "weather.home_hourly",
+                "config_entry_id": "b96573d339493f515eba85ba64a35713",
+                "device_id": "21693987704b1d983b2743143e1e7505",
+                "area_id": null,
+                "unique_id": "home-hourly",
+                "platform": "met",
+                "name": null,
+                "icon": null,
+                "disabled_by": "integration",
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "Home Hourly",
+                "original_icon": null
+            }
+        ]
+    }
+}
