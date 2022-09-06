@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "e9d0fdea4f310a803f4a38c3be33b53f",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "50e0f76bf1506bc263a163c6fb12e182",
+        "version": 1,
+        "domain": "mqtt",
+        "title": "mosquittoserver",
+        "data": {
+          "broker": "mosquittoserver",
+          "port": 1883,
+          "discovery": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "576a2a65a4e5ae78ebb85dc5b7bbac77",
+        "version": 3,
+        "domain": "zha",
+        "title": "Sonoff Zigbee 3.0 USB Dong - /dev/ttyUSB1, s/n: 7edb453259c9eb119e2b8b4f1d69213e - ITead - 10C4:EA60",
+        "data": {
+          "device": {
+            "path": "/dev/ttyUSB0"
+          }
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "10C4:EA60_7edb453259c9eb119e2b8b4f1d69213e_ITead_Sonoff Zigbee 3.0 USB Dongle Plus",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "543a0aabd2d5fb604a2613eb8839ac16",
+        "version": 1,
+        "domain": "tasmota",
+        "title": "Tasmota",
+        "data": {
+          "discovery_prefix": "tasmota/discovery"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "mqtt",
+        "unique_id": "tasmota",
+        "disabled_by": null
+      }
+    ]
+  }
+}
