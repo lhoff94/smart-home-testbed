@@ -1,0 +1,39 @@
+homeassistant: true
+permit_join: true
+mqtt:
+  base_topic: zigbee
+  server: mqtt://mosquittoserver
+  keepalive: 60
+  reject_unauthorized: true
+  version: 4
+serial:
+  port: /dev/ttyUSB0
+advanced:
+  homeassistant_legacy_entity_attributes: false
+  legacy_api: false
+  legacy_availability_payload: false
+  log_syslog:
+    app_name: Zigbee2MQTT
+    eol: /n
+    host: localhost
+    localhost: localhost
+    path: /dev/log
+    pid: process.pid
+    port: 123
+    protocol: tcp4
+    type: '5424'
+  output: json
+  log_output:
+    - file
+device_options:
+  legacy: false
+frontend:
+  port: 8080
+  host: 0.0.0.0
+devices:
+  '0x00124b00245427d4':
+    friendly_name: MotionSensor
+  '0xb4e3f9fffeb3513e':
+    friendly_name: RemoteControll
+  '0x2c1165fffe877958':
+    friendly_name: ZigbeeBulb
