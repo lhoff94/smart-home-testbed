@@ -1,9 +1,8 @@
 from marvis import ArgumentParser, Network, DockerNode,SwitchNode, Scenario, InterfaceNode
 from marvis.command_executor import SSHCommandExecutor
+from marvis.channel.wifi import WiFiChannel
 
 import paramiko
-
-from marvis.marvis.channel.wifi import WiFiChannel
 
 
 def prepare_mc(tty, ip, username, password, firmware):
@@ -15,8 +14,9 @@ def prepare_mc(tty, ip, username, password, firmware):
     service_node.execute(f"invoke erase-flash --tty '{tty}'")
     service_node.execute(f"invoke flash-image --tty '{tty}' --path '{firmware_path}'")
     service_node.execute(f"invoke reset-mc")
-    service_node.execute(f"invoke set-sensor-name --name 'sensor-node-1', --path 'MicroPython-smart-home-client(config.json'")
+    service_node.execute(f"invoke set-sensor-name --name 'ESP-1' --path 'MicroPython-smart-home-client/config.json'")
     service_node.execute(f"invoke copy-program --tty '{tty}' --src-path 'MicroPython-smart-home-client/' --dest-path ':' ")
+    service_node.execute(f"invoke reset-mc")
 
 
 def main():
@@ -27,10 +27,12 @@ def main():
 
     switch = SwitchNode('br-1')
 
+    # Note: Since Python connects to the docker daemon running on the host and not inside the marvis container
+    # the volume mount path has to be absolute and the path on the host and not the one inside the container
     hass = DockerNode(
         'hass',
         docker_image='homeassistant/home-assistant:stable',
-        volumes={'/home/lhoff/masterarbeit/smart-home-testbed/1-test-scenario/docker/hass/config': {'bind': '/config', 'mode': 'rw'}},
+        volumes={'/home/lhoff/masterarbeit/smart-home-testbed/2-case-study/docker/hass/config': {'bind': '/config', 'mode': 'rw'}},
         exposed_ports={'8123':'8123'}
     )
     channel_sub = net.create_channel(delay="10ms", data_rate="1000Mbps")
@@ -48,23 +50,21 @@ def main():
     channel_external.connect(switch)
 
     mpymqttclient = DockerNode(
-        'mpymqttclient 2',
+        'mpymqttclient1',
         docker_image='lhoff94/micropython-runtime:latest',
-        volumes={'/home/lhoff/masterarbeit/smart-home-testbed/2-test-scenario/mpy/MicroPython-smart-home-client': {'bind': '/root/', 'mode': 'ro'}},
+        volumes={'/home/lhoff/masterarbeit/smart-home-testbed/2-case-study/mpy/MicroPython-smart-home-client': {'bind': '/root/', 'mode': 'ro'}},
         command="micropython main.py 1"
     )
-    channel_client1 = net.create_channel(delay="50ms", channel_type=WiFiChannel)
+    channel_client1 = net.create_channel(delay="50ms")
     channel_client1.connect(mpymqttclient)
     channel_client1.connect(switch)
 
 
-    # Note: Since Python connects to the docker daemon running on the host and not inside the marvis container
-    # the volume mount path has to be absolute and the path on the host and not the one inside the container
 
 
     # Setup Microcontroller
     # Microcontroller are connected to Raspberry Pi
-    prepare_mc("/dev/ttyUSB0","172.16.0.107","pi", "pi-passwd", "esp32-v1.19.bin" )
+    prepare_mc("/dev/ttyUSB1","172.16.0.107","pi", "pi-passwd", "esp32-v1.19.1.bin" )
 
 
 
