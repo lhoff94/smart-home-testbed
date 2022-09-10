@@ -7,7 +7,7 @@ mqtt:
   reject_unauthorized: true
   version: 4
 serial:
-  port: /dev/ttyUSB0
+  port: /dev/ttyUSB1
 advanced:
   homeassistant_legacy_entity_attributes: false
   legacy_api: false

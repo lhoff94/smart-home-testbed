@@ -1,5 +1,4 @@
-from marvis import ArgumentParser, Network, DockerNode,SwitchNode, Scenario, InterfaceNode#, SimulationServer
-
+from marvis import ArgumentParser, Network, DockerNode,SwitchNode, Scenario, InterfaceNode
 def main():
     scenario = Scenario()
 
@@ -12,10 +11,9 @@ def main():
     # the volume mount path has to be absolute and the path on the host and not the one inside the container
     zigbee2mqtt = DockerNode(
         'zigbee2mqtt',
-        docker_image='koenkk/zigbee2mqtt:1.26.0',
+        docker_image='koenkk/zigbee2mqtt:latest',
         volumes={
-            '/home/lhoff/masterarbeit/smart-home-testbed/1-test-scenario/docker/zigbee2mqtt/data':{'bind':'/app/data','mode':'rw'},
-            '/run/udev':{'bind':'/run/udev','mode':'ro'}
+            '/home/lhoff/masterarbeit/smart-home-testbed/1-case-study/docker/zigbee2mqtt/data':{'bind':'/app/data','mode':'rw'},
         },
         devices="/dev/ttyUSB1:/dev/ttyUSB1:rwm",
         exposed_ports={'8080':'8080'}
@@ -39,24 +37,14 @@ def main():
     hass = DockerNode(
         'hass',
         docker_image='homeassistant/home-assistant:stable',
-        volumes={'/home/lhoff/masterarbeit/smart-home-testbed/1-test-scenario/docker/hass/config': {'bind': '/config', 'mode': 'rw'}},
+        volumes={'/home/lhoff/masterarbeit/smart-home-testbed/1-case-study/docker/hass/config': {'bind': '/config', 'mode': 'rw'}},
         exposed_ports={'8123':'8123'}
     )
     channel_sub = net.create_channel(delay="50ms", data_rate="100Mbps")
     channel_sub.connect(hass)
     channel_sub.connect(switch)
 
-    @scenario.workflow
-    def test(workflow):
-        #workflow.sleep(60)
-        #hass.restart_docker_container(scenario.simulation)
-        workflow.sleep(20)
-        zigbee2mqtt.docker_image = 'koenkk/zigbee2mqtt:latest'
-        zigbee2mqtt.build_docker_image()
-        zigbee2mqtt.restart_docker_container(scenario.simulation)
-
     scenario.add_network(net)
-
 
     with scenario as sim:
         # To simulate forever, do not specify the simulation_time parameter.
