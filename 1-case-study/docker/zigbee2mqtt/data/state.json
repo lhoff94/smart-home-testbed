@@ -17,11 +17,10 @@
     "0x2c1165fffe877958": {
         "color_mode": "color_temp",
         "state": "ON",
-        "brightness": 150,
+        "brightness": 119,
         "color_temp": 411,
         "update": {
             "state": "idle"
-        },
-        "linkquality": 63
+        }
     }
 }

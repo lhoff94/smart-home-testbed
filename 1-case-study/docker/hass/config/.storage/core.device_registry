@@ -64,7 +64,7 @@
           ]
         ],
         "manufacturer": "IKEA",
-        "model": "TRADFRI LED bulb E14 470 lumen, dimmable, white spectrum, clear (LED2002G5)",
+        "model": "TRADFRI LED bulb E14/E12 470 lumen, dimmable, white spectrum, clear (LED2002G5)",
         "name": "ZigbeeBulb",
         "sw_version": "1.0.012",
         "hw_version": null,
@@ -75,30 +75,6 @@
         "name_by_user": null,
         "disabled_by": null,
         "configuration_url": null
-      },
-      {
-        "config_entries": [
-          "543a0aabd2d5fb604a2613eb8839ac16"
-        ],
-        "connections": [
-          [
-            "mac",
-            "98:cd:ac:24:4b:a7"
-          ]
-        ],
-        "identifiers": [],
-        "manufacturer": "Tasmota",
-        "model": "Shelly i3",
-        "name": "Shellyi3L",
-        "sw_version": "11.0.0",
-        "hw_version": null,
-        "entry_type": null,
-        "id": "dce14a447d2bd070d7203a44a3459f6b",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "http://172.16.0.101/"
       },
       {
         "config_entries": [
@@ -122,7 +98,7 @@
         "area_id": null,
         "name_by_user": null,
         "disabled_by": null,
-        "configuration_url": "http://172.16.0.103/"
+        "configuration_url": "http://172.16.0.102/"
       },
       {
         "config_entries": [
@@ -146,31 +122,7 @@
         "area_id": null,
         "name_by_user": null,
         "disabled_by": null,
-        "configuration_url": "http://172.16.0.105/"
-      },
-      {
-        "config_entries": [
-          "543a0aabd2d5fb604a2613eb8839ac16"
-        ],
-        "connections": [
-          [
-            "mac",
-            "c4:5b:be:60:32:fd"
-          ]
-        ],
-        "identifiers": [],
-        "manufacturer": "Tasmota",
-        "model": "Shelly i3",
-        "name": "Shellyi3R",
-        "sw_version": "11.0.0",
-        "hw_version": null,
-        "entry_type": null,
-        "id": "b094dd1127df2af06ceb0fe98f2f5e67",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "http://172.16.0.104/"
+        "configuration_url": "http://172.16.0.101/"
       },
       {
         "config_entries": [
@@ -194,7 +146,7 @@
         "area_id": null,
         "name_by_user": null,
         "disabled_by": null,
-        "configuration_url": "http://172.16.0.102/"
+        "configuration_url": "http://172.16.0.103/"
       },
       {
         "config_entries": [
@@ -363,6 +315,78 @@
         "name_by_user": null,
         "disabled_by": null,
         "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "244BA7"
+          ]
+        ],
+        "manufacturer": "Tasmota",
+        "model": "Shelly i3",
+        "name": "Shellyi3L",
+        "sw_version": "11.0.0(tasmota)",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "bbc04de7206bd284ff368371a37e3bbf",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "6032FD"
+          ]
+        ],
+        "manufacturer": "Tasmota",
+        "model": "Shelly i3",
+        "name": "Shellyi3R",
+        "sw_version": "11.0.0(tasmota)",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "eb57a9bebbb468635121bd396fc5df83",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "543a0aabd2d5fb604a2613eb8839ac16"
+        ],
+        "connections": [
+          [
+            "mac",
+            "c4:5b:be:60:32:fd"
+          ]
+        ],
+        "identifiers": [],
+        "manufacturer": "Tasmota",
+        "model": "Shelly i3",
+        "name": "Shellyi3R",
+        "sw_version": "12.1.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "b094dd1127df2af06ceb0fe98f2f5e67",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://172.16.0.104/"
       }
     ],
     "deleted_devices": [
@@ -378,6 +402,20 @@
           ]
         ],
         "id": "106a79e07b84984738f6bb9c09ad6b37",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "543a0aabd2d5fb604a2613eb8839ac16"
+        ],
+        "connections": [
+          [
+            "mac",
+            "98:cd:ac:24:4b:a7"
+          ]
+        ],
+        "identifiers": [],
+        "id": "dce14a447d2bd070d7203a44a3459f6b",
         "orphaned_timestamp": null
       }
     ]

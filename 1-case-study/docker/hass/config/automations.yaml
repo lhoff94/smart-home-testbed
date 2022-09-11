@@ -1,5 +1,5 @@
 - id: '1661469166752'
-  alias: ZigbeeBulb On
+  alias: ZigbeeRemote-On-ShellyBulb
   description: ''
   trigger:
   - platform: device
@@ -11,12 +11,12 @@
   condition: []
   action:
   - type: turn_on
-    device_id: c02102701bbf1dbeb2a4bb474c3b44d2
-    entity_id: light.zigbeebulb
-    domain: light
+    device_id: deec25202f50b73c8cd5057e38ed4516
+    entity_id: switch.shelly1_e09806967a3c
+    domain: switch
   mode: single
 - id: '1661469229369'
-  alias: ZigbeeBulb Off
+  alias: ZigbeeRemote-Off-ShellyBulb
   description: ''
   trigger:
   - platform: device
@@ -28,10 +28,11 @@
   condition: []
   action:
   - type: turn_off
-    device_id: c02102701bbf1dbeb2a4bb474c3b44d2
-    entity_id: light.zigbeebulb
-    domain: light
+    device_id: deec25202f50b73c8cd5057e38ed4516
+    entity_id: switch.shelly1_e09806967a3c
+    domain: switch
   mode: single
+
 - id: '1661469299386'
   alias: ZigbeeBulbBrighter
   description: ''
@@ -65,4 +66,33 @@
     domain: light
     entity_id: light.zigbeebulb
     type: brightness_decrease
+  mode: single
+
+- id: '1662505681624'
+  alias: Shellyi3-On-ZigbeeBulb
+  description: ''
+  trigger:
+  - platform: mqtt
+    topic: stat/tasmota_6032FD/SWITCH1
+    payload: '0'
+  condition: []
+  action:
+  - type: turn_off
+    device_id: c02102701bbf1dbeb2a4bb474c3b44d2
+    entity_id: light.zigbeebulb
+    domain: light
+  mode: single
+- id: '1662505681678'
+  alias: Shellyi3-Off-ZigbeeBulb
+  description: ''
+  trigger:
+  - platform: mqtt
+    topic: stat/tasmota_6032FD/SWITCH1
+    payload: '1'
+  condition: []
+  action:
+  - type: turn_on
+    device_id: c02102701bbf1dbeb2a4bb474c3b44d2
+    entity_id: light.zigbeebulb
+    domain: light
   mode: single

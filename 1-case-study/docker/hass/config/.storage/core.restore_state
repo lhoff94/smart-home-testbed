@@ -13,264 +13,252 @@
           "user_id": "3ac3b75756ef48b9a40439953b3640b7",
           "friendly_name": "marvis"
         },
-        "last_changed": "2022-09-06T00:50:53.712135+00:00",
-        "last_updated": "2022-09-06T00:50:55.138951+00:00",
+        "last_changed": "2022-09-08T13:40:16.423064+00:00",
+        "last_updated": "2022-09-08T13:40:20.582657+00:00",
         "context": {
-          "id": "01GC84EPH2TRC75JFAWK0S4FQT",
+          "id": "01GCEN8ZZ643AE7HM5Y12GA1B7",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-06T00:50:55.139388+00:00"
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
     },
     {
       "state": {
         "entity_id": "automation.new_automation",
         "state": "on",
         "attributes": {
-          "last_triggered": "2022-08-29T22:22:17.590894+00:00",
+          "last_triggered": "2022-09-07T21:37:39.037606+00:00",
           "mode": "single",
           "current": 0,
           "id": "1661469166752",
           "friendly_name": "ZigbeeBulb On"
         },
-        "last_changed": "2022-09-06T00:50:54.884524+00:00",
-        "last_updated": "2022-09-06T00:50:54.884524+00:00",
+        "last_changed": "2022-09-08T13:40:17.463628+00:00",
+        "last_updated": "2022-09-08T13:40:17.463628+00:00",
         "context": {
-          "id": "01GC84EP94RFG6JYMBBG3FFJMA",
+          "id": "01GCEN8WXQ0M403FCZS3PHXQ1A",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-06T00:50:55.139388+00:00"
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
     },
     {
       "state": {
         "entity_id": "automation.zigbeebulb_off",
         "state": "on",
         "attributes": {
-          "last_triggered": "2022-08-29T22:22:07.290902+00:00",
+          "last_triggered": "2022-09-07T21:37:22.881803+00:00",
           "mode": "single",
           "current": 0,
           "id": "1661469229369",
           "friendly_name": "ZigbeeBulb Off"
         },
-        "last_changed": "2022-09-06T00:50:54.884601+00:00",
-        "last_updated": "2022-09-06T00:50:54.884601+00:00",
+        "last_changed": "2022-09-08T13:40:17.463708+00:00",
+        "last_updated": "2022-09-08T13:40:17.463708+00:00",
         "context": {
-          "id": "01GC84EP94MWYJSYVE76G5HCSK",
+          "id": "01GCEN8WXQY2PT92QM2C10CS34",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-06T00:50:55.139388+00:00"
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
     },
     {
       "state": {
         "entity_id": "automation.new_automation_2",
         "state": "on",
         "attributes": {
-          "last_triggered": "2022-08-29T22:22:01.660578+00:00",
+          "last_triggered": "2022-09-07T21:38:13.780385+00:00",
           "mode": "single",
           "current": 0,
           "id": "1661469299386",
           "friendly_name": "ZigbeeBulbBrighter"
         },
-        "last_changed": "2022-09-06T00:50:54.884666+00:00",
-        "last_updated": "2022-09-06T00:50:54.884666+00:00",
+        "last_changed": "2022-09-08T13:40:17.463779+00:00",
+        "last_updated": "2022-09-08T13:40:17.463779+00:00",
         "context": {
-          "id": "01GC84EP94ARDF1TJKY778SP57",
+          "id": "01GCEN8WXQGMCSM0CBSGNC1FAF",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-06T00:50:55.139388+00:00"
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
     },
     {
       "state": {
         "entity_id": "automation.zigbeebulb_darker",
         "state": "on",
         "attributes": {
-          "last_triggered": "2022-08-29T22:22:00.437121+00:00",
+          "last_triggered": "2022-09-07T21:38:04.795208+00:00",
           "mode": "single",
           "current": 0,
           "id": "1661469340189",
           "friendly_name": "ZigbeeBulb Darker"
         },
-        "last_changed": "2022-09-06T00:50:54.884730+00:00",
-        "last_updated": "2022-09-06T00:50:54.884730+00:00",
+        "last_changed": "2022-09-08T13:40:17.463845+00:00",
+        "last_updated": "2022-09-08T13:40:17.463845+00:00",
         "context": {
-          "id": "01GC84EP94S03GQY4NG0P2FEBF",
+          "id": "01GCEN8WXQKPSF8QJC28G8J711",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-06T00:50:55.139388+00:00"
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
     },
     {
       "state": {
-        "entity_id": "sensor.s1_temperature",
-        "state": "unavailable",
+        "entity_id": "automation.neue_automatisierung",
+        "state": "on",
         "attributes": {
-          "unit_of_measurement": "°C",
-          "friendly_name": "S1-Temperature"
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "id": "1662505681624",
+          "friendly_name": "Neue Automatisierung"
         },
-        "last_changed": "2022-09-06T00:50:55.059404+00:00",
-        "last_updated": "2022-09-06T00:50:55.059404+00:00",
+        "last_changed": "2022-09-08T13:40:17.463906+00:00",
+        "last_updated": "2022-09-08T13:40:17.463906+00:00",
         "context": {
-          "id": "01GC84EPEK9JA61CRK3QJYBD6Y",
+          "id": "01GCEN8WXQK4S1P5Y9YJZ6XWBJ",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": {
-        "native_value": null,
-        "native_unit_of_measurement": "°C"
-      },
-      "last_seen": "2022-09-06T00:50:55.139388+00:00"
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
     },
     {
       "state": {
-        "entity_id": "sensor.s1_luminance",
+        "entity_id": "binary_sensor.shelly_i3r_switch1",
         "state": "unavailable",
         "attributes": {
-          "unit_of_measurement": "lux",
-          "friendly_name": "S1-Luminance"
+          "friendly_name": "Shelly-i3R-Switch1"
         },
-        "last_changed": "2022-09-06T00:50:55.059516+00:00",
-        "last_updated": "2022-09-06T00:50:55.059516+00:00",
+        "last_changed": "2022-09-08T13:40:20.543438+00:00",
+        "last_updated": "2022-09-08T13:40:20.543438+00:00",
         "context": {
-          "id": "01GC84EPEK95ET3NMRM8DB4CP4",
+          "id": "01GCEN8ZXZC93XB6FDDS3XQ6CP",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": {
-        "native_value": null,
-        "native_unit_of_measurement": "lux"
-      },
-      "last_seen": "2022-09-06T00:50:55.139388+00:00"
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
     },
     {
       "state": {
-        "entity_id": "sensor.s1_co2",
+        "entity_id": "binary_sensor.shelly_i3r_switch2",
         "state": "unavailable",
         "attributes": {
-          "unit_of_measurement": "ppm",
-          "friendly_name": "S1-CO2"
+          "friendly_name": "Shelly-i3R-Switch2"
         },
-        "last_changed": "2022-09-06T00:50:55.059616+00:00",
-        "last_updated": "2022-09-06T00:50:55.059616+00:00",
+        "last_changed": "2022-09-08T13:40:20.543627+00:00",
+        "last_updated": "2022-09-08T13:40:20.543627+00:00",
         "context": {
-          "id": "01GC84EPEK7PM52JWVTPXY5QY1",
+          "id": "01GCEN8ZXZHS0AXRSNQEDTQJNA",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": {
-        "native_value": null,
-        "native_unit_of_measurement": "ppm"
-      },
-      "last_seen": "2022-09-06T00:50:55.139388+00:00"
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
     },
     {
       "state": {
-        "entity_id": "sensor.s1_luftdruck",
+        "entity_id": "binary_sensor.shelly_i3r_switch3",
         "state": "unavailable",
         "attributes": {
-          "unit_of_measurement": "hPa",
-          "friendly_name": "S1-Luftdruck"
+          "friendly_name": "Shelly-i3R-Switch3"
         },
-        "last_changed": "2022-09-06T00:50:55.059713+00:00",
-        "last_updated": "2022-09-06T00:50:55.059713+00:00",
+        "last_changed": "2022-09-08T13:40:20.543787+00:00",
+        "last_updated": "2022-09-08T13:40:20.543787+00:00",
         "context": {
-          "id": "01GC84EPEKEG8MSXP0W0VKH0X8",
+          "id": "01GCEN8ZXZVDJM9FY4J3VKAWWB",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": {
-        "native_value": null,
-        "native_unit_of_measurement": "hPa"
-      },
-      "last_seen": "2022-09-06T00:50:55.139388+00:00"
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
     },
     {
       "state": {
         "entity_id": "binary_sensor.motionsensor_occupancy",
-        "state": "on",
+        "state": "unavailable",
         "attributes": {
           "device_class": "motion",
           "friendly_name": "MotionSensor occupancy"
         },
-        "last_changed": "2022-09-05T02:36:20.632168+00:00",
-        "last_updated": "2022-09-05T02:36:20.632168+00:00",
+        "last_changed": "2022-09-08T12:31:15.199736+00:00",
+        "last_updated": "2022-09-08T12:31:15.199736+00:00",
         "context": {
-          "id": "01GC5R30RRRM5ETXXHVCPJH31E",
+          "id": "01GCEHAFQZJMNR6NCSPDMN6F5W",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
     },
     {
       "state": {
         "entity_id": "binary_sensor.motionsensor_battery_low",
-        "state": "off",
+        "state": "unavailable",
         "attributes": {
           "device_class": "battery",
           "friendly_name": "MotionSensor battery low"
         },
-        "last_changed": "2022-09-05T02:36:20.632239+00:00",
-        "last_updated": "2022-09-05T02:36:20.632239+00:00",
+        "last_changed": "2022-09-08T12:31:15.199786+00:00",
+        "last_updated": "2022-09-08T12:31:15.199786+00:00",
         "context": {
-          "id": "01GC5R30RR6MHZWYH5H7WWTRWC",
+          "id": "01GCEHAFQZBZZ2BZ25BD7S2DR9",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
     },
     {
       "state": {
         "entity_id": "binary_sensor.motionsensor_tamper",
-        "state": "off",
+        "state": "unavailable",
         "attributes": {
           "device_class": "tamper",
           "friendly_name": "MotionSensor tamper"
         },
-        "last_changed": "2022-09-05T02:36:20.632302+00:00",
-        "last_updated": "2022-09-05T02:36:20.632302+00:00",
+        "last_changed": "2022-09-08T12:31:15.199835+00:00",
+        "last_updated": "2022-09-08T12:31:15.199835+00:00",
         "context": {
-          "id": "01GC5R30RRYERWCBDNYMNRYAYG",
+          "id": "01GCEHAFQZH1RPHSTQV6XEEBNV",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.motionsensor_battery",
-        "state": "9",
+        "state": "unavailable",
         "attributes": {
           "state_class": "measurement",
           "unit_of_measurement": "%",
           "device_class": "battery",
           "friendly_name": "MotionSensor battery"
         },
-        "last_changed": "2022-09-05T02:36:20.632030+00:00",
-        "last_updated": "2022-09-05T02:36:20.632030+00:00",
+        "last_changed": "2022-09-08T12:31:15.199494+00:00",
+        "last_updated": "2022-09-08T12:31:15.199494+00:00",
         "context": {
-          "id": "01GC5R30RRCS6C55V839WZ78MN",
+          "id": "01GCEHAFQZAX86DH3NWSVVGYAE",
           "parent_id": null,
           "user_id": null
         }
@@ -279,22 +267,22 @@
         "native_value": "9",
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.remotecontroll_battery",
-        "state": "100",
+        "state": "unavailable",
         "attributes": {
           "state_class": "measurement",
           "unit_of_measurement": "%",
           "device_class": "battery",
           "friendly_name": "RemoteControll battery"
         },
-        "last_changed": "2022-09-05T02:36:20.531321+00:00",
-        "last_updated": "2022-09-05T02:36:20.531321+00:00",
+        "last_changed": "2022-09-08T12:31:15.199328+00:00",
+        "last_updated": "2022-09-08T12:31:15.199328+00:00",
         "context": {
-          "id": "01GC5R30NKB4CBY1ZES78JWE5T",
+          "id": "01GCEHAFQZF1K5T39Y5P1QHTW4",
           "parent_id": null,
           "user_id": null
         }
@@ -303,53 +291,53 @@
         "native_value": "100",
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.remotecontroll_action",
-        "state": "None",
+        "state": "unavailable",
         "attributes": {
           "icon": "mdi:gesture-double-tap",
           "friendly_name": "RemoteControll action"
         },
-        "last_changed": "2022-09-05T02:36:20.531460+00:00",
-        "last_updated": "2022-09-05T02:36:20.531460+00:00",
+        "last_changed": "2022-09-08T12:31:15.199434+00:00",
+        "last_updated": "2022-09-08T12:31:15.199434+00:00",
         "context": {
-          "id": "01GC5R30NKVSBVX2YXVYVH42M1",
+          "id": "01GCEHAFQZHZ9NGD93HH2B92Q3",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "None",
+        "native_value": "",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
     },
     {
       "state": {
         "entity_id": "binary_sensor.remotecontroll_update_available",
-        "state": "off",
+        "state": "unavailable",
         "attributes": {
           "device_class": "update",
           "friendly_name": "RemoteControll update available"
         },
-        "last_changed": "2022-09-05T02:36:20.531557+00:00",
-        "last_updated": "2022-09-05T02:36:20.531557+00:00",
+        "last_changed": "2022-09-08T12:31:15.199679+00:00",
+        "last_updated": "2022-09-08T12:31:15.199679+00:00",
         "context": {
-          "id": "01GC5R30NKBBC2VY0TGM7AN6VJ",
+          "id": "01GCEHAFQZJNMQSESM03NQRNTS",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
     },
     {
       "state": {
         "entity_id": "light.zigbeebulb",
-        "state": "on",
+        "state": "unavailable",
         "attributes": {
           "min_mireds": 250,
           "max_mireds": 454,
@@ -364,40 +352,24 @@
           "supported_color_modes": [
             "color_temp"
           ],
-          "color_mode": "color_temp",
-          "brightness": 150,
-          "color_temp": 411,
-          "hs_color": [
-            29.057,
-            75.004
-          ],
-          "rgb_color": [
-            255,
-            156,
-            63
-          ],
-          "xy_color": [
-            0.554,
-            0.389
-          ],
           "friendly_name": "ZigbeeBulb",
           "supported_features": 47
         },
-        "last_changed": "2022-09-05T02:36:20.633373+00:00",
-        "last_updated": "2022-09-05T02:36:20.633373+00:00",
+        "last_changed": "2022-09-08T12:31:15.199964+00:00",
+        "last_updated": "2022-09-08T12:31:15.199964+00:00",
         "context": {
-          "id": "01GC5R30RS8WPS4QNYEA9FW5JC",
+          "id": "01GCEHAFQZT3677DDDQNS85G6N",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
     },
     {
       "state": {
         "entity_id": "select.zigbeebulb_power_on_behavior",
-        "state": "unknown",
+        "state": "unavailable",
         "attributes": {
           "options": [
             "off",
@@ -407,35 +379,272 @@
           "icon": "mdi:power-settings",
           "friendly_name": "ZigbeeBulb power on behavior"
         },
-        "last_changed": "2022-09-05T02:35:48.309618+00:00",
-        "last_updated": "2022-09-05T02:35:48.309618+00:00",
+        "last_changed": "2022-09-08T12:31:15.200024+00:00",
+        "last_updated": "2022-09-08T12:31:15.200024+00:00",
         "context": {
-          "id": "01GC5R216NFABZN6A807EZGRQB",
+          "id": "01GCEHAFR03VWTD6X04MMSV376",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
     },
     {
       "state": {
         "entity_id": "binary_sensor.zigbeebulb_update_available",
-        "state": "off",
+        "state": "unavailable",
         "attributes": {
           "device_class": "update",
           "friendly_name": "ZigbeeBulb update available"
         },
-        "last_changed": "2022-09-05T02:36:20.633196+00:00",
-        "last_updated": "2022-09-05T02:36:20.633196+00:00",
+        "last_changed": "2022-09-08T12:31:15.199884+00:00",
+        "last_updated": "2022-09-08T12:31:15.199884+00:00",
         "context": {
-          "id": "01GC5R30RS82E4JZP8CAMPA4H1",
+          "id": "01GCEHAFQZ7WHDPS1HRHV6PNVC",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "switch.shelly_i3r_switch1",
+        "state": "unavailable",
+        "attributes": {
+          "assumed_state": true,
+          "friendly_name": "Shelly-i3R-Switch1"
+        },
+        "last_changed": "2022-09-06T22:43:35.920117+00:00",
+        "last_updated": "2022-09-06T22:43:35.920117+00:00",
+        "context": {
+          "id": "01GCAFJ9BG71YZHT5X3GAJRZNA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-07T16:05:41.250527+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "switch.shelly_i3r_switch2",
+        "state": "unavailable",
+        "attributes": {
+          "assumed_state": true,
+          "friendly_name": "Shelly-i3R-Switch2"
+        },
+        "last_changed": "2022-09-06T22:43:35.920218+00:00",
+        "last_updated": "2022-09-06T22:43:35.920218+00:00",
+        "context": {
+          "id": "01GCAFJ9BGKK282HT26ETGERQB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-07T16:05:41.250527+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "switch.shelly_i3r_switch3",
+        "state": "unavailable",
+        "attributes": {
+          "assumed_state": true,
+          "friendly_name": "Shelly-i3R-Switch3"
+        },
+        "last_changed": "2022-09-06T22:43:35.920264+00:00",
+        "last_updated": "2022-09-06T22:43:35.920264+00:00",
+        "context": {
+          "id": "01GCAFJ9BGXCGBX9EPAJQCK3C1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-07T16:05:41.250527+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.s1_temperature",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "friendly_name": "S1-Temperature"
+        },
+        "last_changed": "2022-09-06T22:33:10.447483+00:00",
+        "last_updated": "2022-09-06T22:33:10.447483+00:00",
+        "context": {
+          "id": "01GCAEZ6HF95992MTAZ6ZH1NC9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-09-06T22:33:32.878384+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.s1_luminance",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "lux",
+          "friendly_name": "S1-Luminance"
+        },
+        "last_changed": "2022-09-06T22:33:10.447729+00:00",
+        "last_updated": "2022-09-06T22:33:10.447729+00:00",
+        "context": {
+          "id": "01GCAEZ6HFQ54CFTSMN007TKZ6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "lux"
+      },
+      "last_seen": "2022-09-06T22:33:32.878384+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.s1_co2",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "ppm",
+          "friendly_name": "S1-CO2"
+        },
+        "last_changed": "2022-09-06T22:33:10.447935+00:00",
+        "last_updated": "2022-09-06T22:33:10.447935+00:00",
+        "context": {
+          "id": "01GCAEZ6HF06Q6B08H0FNR0RZY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "ppm"
+      },
+      "last_seen": "2022-09-06T22:33:32.878384+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.s1_luftdruck",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "hPa",
+          "friendly_name": "S1-Luftdruck"
+        },
+        "last_changed": "2022-09-06T22:33:10.448128+00:00",
+        "last_updated": "2022-09-06T22:33:10.448128+00:00",
+        "context": {
+          "id": "01GCAEZ6HGN73D32WR6FT0FBEY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "hPa"
+      },
+      "last_seen": "2022-09-06T22:33:32.878384+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.shellyi3l_analog_temperature_2",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Shellyi3L ANALOG Temperature"
+        },
+        "last_changed": "2022-09-06T21:33:31.995772+00:00",
+        "last_updated": "2022-09-06T21:33:31.995772+00:00",
+        "context": {
+          "id": "01GCABHZYV7RK8DK83QG81XFRK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "33.9",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-09-06T22:08:08.459367+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.shellyi3l_status",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "icon": "mdi:information-outline",
+          "friendly_name": "Shellyi3L status"
+        },
+        "last_changed": "2022-09-06T21:33:31.995901+00:00",
+        "last_updated": "2022-09-06T21:33:31.995901+00:00",
+        "context": {
+          "id": "01GCABHZYVJTSAZ5QM395BME87",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "100",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-09-06T22:08:08.459367+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.shellyi3r_analog_temperature_2",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Shellyi3R ANALOG Temperature"
+        },
+        "last_changed": "2022-09-06T21:55:31.353791+00:00",
+        "last_updated": "2022-09-06T21:55:31.353791+00:00",
+        "context": {
+          "id": "01GCACT8CSPXDXE8HZWVFQ15ZT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "57.0",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-09-06T22:08:08.459367+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.shellyi3r_status",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "icon": "mdi:information-outline",
+          "friendly_name": "Shellyi3R status"
+        },
+        "last_changed": "2022-09-06T21:55:31.353903+00:00",
+        "last_updated": "2022-09-06T21:55:31.353903+00:00",
+        "context": {
+          "id": "01GCACT8CSGC34XP66JK5NST3G",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "94",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-09-06T22:08:08.459367+00:00"
     },
     {
       "state": {
