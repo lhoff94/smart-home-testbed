@@ -1,0 +1,423 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0xb4e3f9fffeb3513e"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "STYRBAR remote control N2 (E2001/E2002)",
+        "name": "RemoteControll",
+        "sw_version": "1.0.024",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "04d156a7e254022576480557859eb044",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x00124b00245427d4"
+          ]
+        ],
+        "manufacturer": "SONOFF",
+        "model": "Motion sensor (SNZB-03)",
+        "name": "MotionSensor",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "9cf1f742fecb9c7ae83f172d88175fc9",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x2c1165fffe877958"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "TRADFRI LED bulb E14/E12 470 lumen, dimmable, white spectrum, clear (LED2002G5)",
+        "name": "ZigbeeBulb",
+        "sw_version": "1.0.012",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "c02102701bbf1dbeb2a4bb474c3b44d2",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "543a0aabd2d5fb604a2613eb8839ac16"
+        ],
+        "connections": [
+          [
+            "mac",
+            "e8:db:84:aa:ae:99"
+          ]
+        ],
+        "identifiers": [],
+        "manufacturer": "Tasmota",
+        "model": "Shelly DUO",
+        "name": "ShellyDuo",
+        "sw_version": "12.1.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "f57a16e0aecf67c3354b92c69295dd01",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://172.16.0.102/"
+      },
+      {
+        "config_entries": [
+          "543a0aabd2d5fb604a2613eb8839ac16"
+        ],
+        "connections": [
+          [
+            "mac",
+            "e8:db:84:ac:2a:b3"
+          ]
+        ],
+        "identifiers": [],
+        "manufacturer": "Tasmota",
+        "model": "Shelly 1",
+        "name": "ShellyR",
+        "sw_version": "11.0.0",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "7d5162fbbcf5e55e081118164d53bbb1",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://172.16.0.101/"
+      },
+      {
+        "config_entries": [
+          "543a0aabd2d5fb604a2613eb8839ac16"
+        ],
+        "connections": [
+          [
+            "mac",
+            "e8:db:84:ac:05:f5"
+          ]
+        ],
+        "identifiers": [],
+        "manufacturer": "Tasmota",
+        "model": "Shelly 1",
+        "name": "ShellyL",
+        "sw_version": "11.0.0",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "ff41d7cc6984fa3165afa7aa48d605a6",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://172.16.0.103/"
+      },
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "sensor-node-2"
+          ]
+        ],
+        "manufacturer": "Espressif",
+        "model": "ESP32",
+        "name": "sensor-node-2",
+        "sw_version": "1.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "8effa9992caa5836fddf90044e245959",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "sensor-v-node-1"
+          ]
+        ],
+        "manufacturer": "Espressif",
+        "model": "ESP32",
+        "name": "sensor-v-node-1",
+        "sw_version": "1.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "e97447a34b31450dc24e370ab2667e66",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "sensor-v-node-1-1"
+          ]
+        ],
+        "manufacturer": "Espressif",
+        "model": "ESP32",
+        "name": "sensor-v-node-1-1",
+        "sw_version": "1.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "f3b7461322b668309898706355df7e1f",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "sensor-v-node-2"
+          ]
+        ],
+        "manufacturer": "Espressif",
+        "model": "ESP32",
+        "name": "sensor-v-node-2",
+        "sw_version": "1.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "647aac0681498480f2bbba453c6d1d9b",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "sensor-v-node-3"
+          ]
+        ],
+        "manufacturer": "Espressif",
+        "model": "ESP32",
+        "name": "sensor-v-node-3",
+        "sw_version": "1.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "e6aa89775e3df8ed9b56ceca1fad83fc",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "sensor-v-node-4"
+          ]
+        ],
+        "manufacturer": "Espressif",
+        "model": "ESP32",
+        "name": "sensor-v-node-4",
+        "sw_version": "1.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "23f710e69a56021d65cd1caced2c69d4",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "sensor-v-node-5"
+          ]
+        ],
+        "manufacturer": "Espressif",
+        "model": "ESP32",
+        "name": "sensor-v-node-5",
+        "sw_version": "1.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "a5ba79abf63e010f90bae911b335bfaa",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "244BA7"
+          ]
+        ],
+        "manufacturer": "Tasmota",
+        "model": "Shelly i3",
+        "name": "Shellyi3L",
+        "sw_version": "11.0.0(tasmota)",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "bbc04de7206bd284ff368371a37e3bbf",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "6032FD"
+          ]
+        ],
+        "manufacturer": "Tasmota",
+        "model": "Shelly i3",
+        "name": "Shellyi3R",
+        "sw_version": "11.0.0(tasmota)",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "eb57a9bebbb468635121bd396fc5df83",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "543a0aabd2d5fb604a2613eb8839ac16"
+        ],
+        "connections": [
+          [
+            "mac",
+            "c4:5b:be:60:32:fd"
+          ]
+        ],
+        "identifiers": [],
+        "manufacturer": "Tasmota",
+        "model": "Shelly i3",
+        "name": "Shellyi3R",
+        "sw_version": "12.1.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "b094dd1127df2af06ceb0fe98f2f5e67",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://172.16.0.104/"
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [
+          "50e0f76bf1506bc263a163c6fb12e182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0xec1bbdfffe2ccf10"
+          ]
+        ],
+        "id": "106a79e07b84984738f6bb9c09ad6b37",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "543a0aabd2d5fb604a2613eb8839ac16"
+        ],
+        "connections": [
+          [
+            "mac",
+            "98:cd:ac:24:4b:a7"
+          ]
+        ],
+        "identifiers": [],
+        "id": "dce14a447d2bd070d7203a44a3459f6b",
+        "orphaned_timestamp": null
+      }
+    ]
+  }
+}

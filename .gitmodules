@@ -4,3 +4,6 @@
 [submodule "2-case-study/mpy/MicroPython-smart-home-client"]
 	path = 2-case-study/mpy/MicroPython-smart-home-client
 	url = https://github.com/lhoff94/MicroPython-smart-home-client
+[submodule "4-case-study/MicroPython-smart-home-client"]
+	path = 4-case-study/MicroPython-smart-home-client
+	url = https://github.com/lhoff94/MicroPython-smart-home-client

@@ -1,0 +1,68 @@
+- id: '1661469166752'
+  alias: ZigbeeBulb On
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: 04d156a7e254022576480557859eb044
+    type: action
+    subtype: 'on'
+    discovery_id: 0xb4e3f9fffeb3513e action_on
+  condition: []
+  action:
+  - type: turn_on
+    device_id: c02102701bbf1dbeb2a4bb474c3b44d2
+    entity_id: light.zigbeebulb
+    domain: light
+  mode: single
+- id: '1661469229369'
+  alias: ZigbeeBulb Off
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: 04d156a7e254022576480557859eb044
+    type: action
+    subtype: 'off'
+    discovery_id: 0xb4e3f9fffeb3513e action_off
+  condition: []
+  action:
+  - type: turn_off
+    device_id: c02102701bbf1dbeb2a4bb474c3b44d2
+    entity_id: light.zigbeebulb
+    domain: light
+  mode: single
+- id: '1661469299386'
+  alias: ZigbeeBulbBrighter
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: 04d156a7e254022576480557859eb044
+    type: action
+    subtype: arrow_left_click
+    discovery_id: 0xb4e3f9fffeb3513e action_arrow_left_click
+  condition: []
+  action:
+  - device_id: c02102701bbf1dbeb2a4bb474c3b44d2
+    domain: light
+    entity_id: light.zigbeebulb
+    type: brightness_increase
+  mode: single
+- id: '1661469340189'
+  alias: ZigbeeBulb Darker
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: 04d156a7e254022576480557859eb044
+    type: action
+    subtype: arrow_right_click
+    discovery_id: 0xb4e3f9fffeb3513e action_arrow_right_click
+  condition: []
+  action:
+  - device_id: c02102701bbf1dbeb2a4bb474c3b44d2
+    domain: light
+    entity_id: light.zigbeebulb
+    type: brightness_decrease
+  mode: single

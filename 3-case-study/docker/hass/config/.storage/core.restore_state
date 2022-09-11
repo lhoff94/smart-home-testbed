@@ -1,0 +1,1294 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.marvis",
+        "state": "unknown",
+        "attributes": {
+          "editable": false,
+          "id": "marvis",
+          "user_id": "3ac3b75756ef48b9a40439953b3640b7",
+          "friendly_name": "marvis"
+        },
+        "last_changed": "2022-09-08T13:40:16.423064+00:00",
+        "last_updated": "2022-09-08T13:40:20.582657+00:00",
+        "context": {
+          "id": "01GCEN8ZZ643AE7HM5Y12GA1B7",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.new_automation",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-09-07T21:37:39.037606+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1661469166752",
+          "friendly_name": "ZigbeeBulb On"
+        },
+        "last_changed": "2022-09-08T13:40:17.463628+00:00",
+        "last_updated": "2022-09-08T13:40:17.463628+00:00",
+        "context": {
+          "id": "01GCEN8WXQ0M403FCZS3PHXQ1A",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.zigbeebulb_off",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-09-07T21:37:22.881803+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1661469229369",
+          "friendly_name": "ZigbeeBulb Off"
+        },
+        "last_changed": "2022-09-08T13:40:17.463708+00:00",
+        "last_updated": "2022-09-08T13:40:17.463708+00:00",
+        "context": {
+          "id": "01GCEN8WXQY2PT92QM2C10CS34",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.new_automation_2",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-09-07T21:38:13.780385+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1661469299386",
+          "friendly_name": "ZigbeeBulbBrighter"
+        },
+        "last_changed": "2022-09-08T13:40:17.463779+00:00",
+        "last_updated": "2022-09-08T13:40:17.463779+00:00",
+        "context": {
+          "id": "01GCEN8WXQGMCSM0CBSGNC1FAF",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.zigbeebulb_darker",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-09-07T21:38:04.795208+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1661469340189",
+          "friendly_name": "ZigbeeBulb Darker"
+        },
+        "last_changed": "2022-09-08T13:40:17.463845+00:00",
+        "last_updated": "2022-09-08T13:40:17.463845+00:00",
+        "context": {
+          "id": "01GCEN8WXQKPSF8QJC28G8J711",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.neue_automatisierung",
+        "state": "on",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "id": "1662505681624",
+          "friendly_name": "Neue Automatisierung"
+        },
+        "last_changed": "2022-09-08T13:40:17.463906+00:00",
+        "last_updated": "2022-09-08T13:40:17.463906+00:00",
+        "context": {
+          "id": "01GCEN8WXQK4S1P5Y9YJZ6XWBJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.shelly_i3r_switch1",
+        "state": "unavailable",
+        "attributes": {
+          "friendly_name": "Shelly-i3R-Switch1"
+        },
+        "last_changed": "2022-09-08T13:40:20.543438+00:00",
+        "last_updated": "2022-09-08T13:40:20.543438+00:00",
+        "context": {
+          "id": "01GCEN8ZXZC93XB6FDDS3XQ6CP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.shelly_i3r_switch2",
+        "state": "unavailable",
+        "attributes": {
+          "friendly_name": "Shelly-i3R-Switch2"
+        },
+        "last_changed": "2022-09-08T13:40:20.543627+00:00",
+        "last_updated": "2022-09-08T13:40:20.543627+00:00",
+        "context": {
+          "id": "01GCEN8ZXZHS0AXRSNQEDTQJNA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.shelly_i3r_switch3",
+        "state": "unavailable",
+        "attributes": {
+          "friendly_name": "Shelly-i3R-Switch3"
+        },
+        "last_changed": "2022-09-08T13:40:20.543787+00:00",
+        "last_updated": "2022-09-08T13:40:20.543787+00:00",
+        "context": {
+          "id": "01GCEN8ZXZVDJM9FY4J3VKAWWB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:40:20.583259+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.motionsensor_occupancy",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "motion",
+          "friendly_name": "MotionSensor occupancy"
+        },
+        "last_changed": "2022-09-08T12:31:15.199736+00:00",
+        "last_updated": "2022-09-08T12:31:15.199736+00:00",
+        "context": {
+          "id": "01GCEHAFQZJMNR6NCSPDMN6F5W",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.motionsensor_battery_low",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "battery",
+          "friendly_name": "MotionSensor battery low"
+        },
+        "last_changed": "2022-09-08T12:31:15.199786+00:00",
+        "last_updated": "2022-09-08T12:31:15.199786+00:00",
+        "context": {
+          "id": "01GCEHAFQZBZZ2BZ25BD7S2DR9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.motionsensor_tamper",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "tamper",
+          "friendly_name": "MotionSensor tamper"
+        },
+        "last_changed": "2022-09-08T12:31:15.199835+00:00",
+        "last_updated": "2022-09-08T12:31:15.199835+00:00",
+        "context": {
+          "id": "01GCEHAFQZH1RPHSTQV6XEEBNV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.motionsensor_battery",
+        "state": "unavailable",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "MotionSensor battery"
+        },
+        "last_changed": "2022-09-08T12:31:15.199494+00:00",
+        "last_updated": "2022-09-08T12:31:15.199494+00:00",
+        "context": {
+          "id": "01GCEHAFQZAX86DH3NWSVVGYAE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "9",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.remotecontroll_battery",
+        "state": "unavailable",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "RemoteControll battery"
+        },
+        "last_changed": "2022-09-08T12:31:15.199328+00:00",
+        "last_updated": "2022-09-08T12:31:15.199328+00:00",
+        "context": {
+          "id": "01GCEHAFQZF1K5T39Y5P1QHTW4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "100",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.remotecontroll_action",
+        "state": "unavailable",
+        "attributes": {
+          "icon": "mdi:gesture-double-tap",
+          "friendly_name": "RemoteControll action"
+        },
+        "last_changed": "2022-09-08T12:31:15.199434+00:00",
+        "last_updated": "2022-09-08T12:31:15.199434+00:00",
+        "context": {
+          "id": "01GCEHAFQZHZ9NGD93HH2B92Q3",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.remotecontroll_update_available",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "RemoteControll update available"
+        },
+        "last_changed": "2022-09-08T12:31:15.199679+00:00",
+        "last_updated": "2022-09-08T12:31:15.199679+00:00",
+        "context": {
+          "id": "01GCEHAFQZJNMQSESM03NQRNTS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "light.zigbeebulb",
+        "state": "unavailable",
+        "attributes": {
+          "min_mireds": 250,
+          "max_mireds": 454,
+          "effect_list": [
+            "blink",
+            "breathe",
+            "okay",
+            "channel_change",
+            "finish_effect",
+            "stop_effect"
+          ],
+          "supported_color_modes": [
+            "color_temp"
+          ],
+          "friendly_name": "ZigbeeBulb",
+          "supported_features": 47
+        },
+        "last_changed": "2022-09-08T12:31:15.199964+00:00",
+        "last_updated": "2022-09-08T12:31:15.199964+00:00",
+        "context": {
+          "id": "01GCEHAFQZT3677DDDQNS85G6N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "select.zigbeebulb_power_on_behavior",
+        "state": "unavailable",
+        "attributes": {
+          "options": [
+            "off",
+            "previous",
+            "on"
+          ],
+          "icon": "mdi:power-settings",
+          "friendly_name": "ZigbeeBulb power on behavior"
+        },
+        "last_changed": "2022-09-08T12:31:15.200024+00:00",
+        "last_updated": "2022-09-08T12:31:15.200024+00:00",
+        "context": {
+          "id": "01GCEHAFR03VWTD6X04MMSV376",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.zigbeebulb_update_available",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "ZigbeeBulb update available"
+        },
+        "last_changed": "2022-09-08T12:31:15.199884+00:00",
+        "last_updated": "2022-09-08T12:31:15.199884+00:00",
+        "context": {
+          "id": "01GCEHAFQZ7WHDPS1HRHV6PNVC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-08T13:37:16.574016+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "switch.shelly_i3r_switch1",
+        "state": "unavailable",
+        "attributes": {
+          "assumed_state": true,
+          "friendly_name": "Shelly-i3R-Switch1"
+        },
+        "last_changed": "2022-09-06T22:43:35.920117+00:00",
+        "last_updated": "2022-09-06T22:43:35.920117+00:00",
+        "context": {
+          "id": "01GCAFJ9BG71YZHT5X3GAJRZNA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-07T16:05:41.250527+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "switch.shelly_i3r_switch2",
+        "state": "unavailable",
+        "attributes": {
+          "assumed_state": true,
+          "friendly_name": "Shelly-i3R-Switch2"
+        },
+        "last_changed": "2022-09-06T22:43:35.920218+00:00",
+        "last_updated": "2022-09-06T22:43:35.920218+00:00",
+        "context": {
+          "id": "01GCAFJ9BGKK282HT26ETGERQB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-07T16:05:41.250527+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "switch.shelly_i3r_switch3",
+        "state": "unavailable",
+        "attributes": {
+          "assumed_state": true,
+          "friendly_name": "Shelly-i3R-Switch3"
+        },
+        "last_changed": "2022-09-06T22:43:35.920264+00:00",
+        "last_updated": "2022-09-06T22:43:35.920264+00:00",
+        "context": {
+          "id": "01GCAFJ9BGXCGBX9EPAJQCK3C1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-07T16:05:41.250527+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.s1_temperature",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "friendly_name": "S1-Temperature"
+        },
+        "last_changed": "2022-09-06T22:33:10.447483+00:00",
+        "last_updated": "2022-09-06T22:33:10.447483+00:00",
+        "context": {
+          "id": "01GCAEZ6HF95992MTAZ6ZH1NC9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-09-06T22:33:32.878384+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.s1_luminance",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "lux",
+          "friendly_name": "S1-Luminance"
+        },
+        "last_changed": "2022-09-06T22:33:10.447729+00:00",
+        "last_updated": "2022-09-06T22:33:10.447729+00:00",
+        "context": {
+          "id": "01GCAEZ6HFQ54CFTSMN007TKZ6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "lux"
+      },
+      "last_seen": "2022-09-06T22:33:32.878384+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.s1_co2",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "ppm",
+          "friendly_name": "S1-CO2"
+        },
+        "last_changed": "2022-09-06T22:33:10.447935+00:00",
+        "last_updated": "2022-09-06T22:33:10.447935+00:00",
+        "context": {
+          "id": "01GCAEZ6HF06Q6B08H0FNR0RZY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "ppm"
+      },
+      "last_seen": "2022-09-06T22:33:32.878384+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.s1_luftdruck",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "hPa",
+          "friendly_name": "S1-Luftdruck"
+        },
+        "last_changed": "2022-09-06T22:33:10.448128+00:00",
+        "last_updated": "2022-09-06T22:33:10.448128+00:00",
+        "context": {
+          "id": "01GCAEZ6HGN73D32WR6FT0FBEY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "hPa"
+      },
+      "last_seen": "2022-09-06T22:33:32.878384+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.shellyi3l_analog_temperature_2",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Shellyi3L ANALOG Temperature"
+        },
+        "last_changed": "2022-09-06T21:33:31.995772+00:00",
+        "last_updated": "2022-09-06T21:33:31.995772+00:00",
+        "context": {
+          "id": "01GCABHZYV7RK8DK83QG81XFRK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "33.9",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-09-06T22:08:08.459367+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.shellyi3l_status",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "icon": "mdi:information-outline",
+          "friendly_name": "Shellyi3L status"
+        },
+        "last_changed": "2022-09-06T21:33:31.995901+00:00",
+        "last_updated": "2022-09-06T21:33:31.995901+00:00",
+        "context": {
+          "id": "01GCABHZYVJTSAZ5QM395BME87",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "100",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-09-06T22:08:08.459367+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.shellyi3r_analog_temperature_2",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Shellyi3R ANALOG Temperature"
+        },
+        "last_changed": "2022-09-06T21:55:31.353791+00:00",
+        "last_updated": "2022-09-06T21:55:31.353791+00:00",
+        "context": {
+          "id": "01GCACT8CSPXDXE8HZWVFQ15ZT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "57.0",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-09-06T22:08:08.459367+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.shellyi3r_status",
+        "state": "unavailable",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "icon": "mdi:information-outline",
+          "friendly_name": "Shellyi3R status"
+        },
+        "last_changed": "2022-09-06T21:55:31.353903+00:00",
+        "last_updated": "2022-09-06T21:55:31.353903+00:00",
+        "context": {
+          "id": "01GCACT8CSGC34XP66JK5NST3G",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "94",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-09-06T22:08:08.459367+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.helligkeit_1",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "lx",
+          "device_class": "illuminance",
+          "friendly_name": "Helligkeit-1"
+        },
+        "last_changed": "2022-09-05T02:35:59.611301+00:00",
+        "last_updated": "2022-09-05T02:35:59.611301+00:00",
+        "context": {
+          "id": "01GC5R2C7V7H1EGANQ22964GAW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "lx"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.luftdruck_2",
+        "state": "0.99",
+        "attributes": {
+          "unit_of_measurement": "mbar",
+          "device_class": "pressure",
+          "friendly_name": "Luftdruck-2"
+        },
+        "last_changed": "2022-09-05T02:35:59.611546+00:00",
+        "last_updated": "2022-09-05T02:35:59.611546+00:00",
+        "context": {
+          "id": "01GC5R2C7V4Y0R1G7PF7GVH1XT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "0.99",
+        "native_unit_of_measurement": "mbar"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.co2_konzentration_3",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "ppm",
+          "device_class": "carbon_dioxide",
+          "friendly_name": "CO2-Konzentration-3"
+        },
+        "last_changed": "2022-09-05T02:35:59.611718+00:00",
+        "last_updated": "2022-09-05T02:35:59.611718+00:00",
+        "context": {
+          "id": "01GC5R2C7V9CYPH24X28PD8DYR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "ppm"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.temperatur_4",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Temperatur-4"
+        },
+        "last_changed": "2022-09-05T02:35:59.611888+00:00",
+        "last_updated": "2022-09-05T02:35:59.611888+00:00",
+        "context": {
+          "id": "01GC5R2C7VEY61EHQCA231H3EW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.helligkeit_1_3",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "lx",
+          "device_class": "illuminance",
+          "friendly_name": "Helligkeit-1"
+        },
+        "last_changed": "2022-09-05T02:35:59.811365+00:00",
+        "last_updated": "2022-09-05T02:35:59.811365+00:00",
+        "context": {
+          "id": "01GC5R2CE3S3TDEST5ZHZ8H1Z1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "lx"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.helligkeit_1_4",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "lx",
+          "device_class": "illuminance",
+          "friendly_name": "Helligkeit-1"
+        },
+        "last_changed": "2022-09-05T02:36:00.364971+00:00",
+        "last_updated": "2022-09-05T02:36:00.364971+00:00",
+        "context": {
+          "id": "01GC5R2CZCN2ABAQTC4TG50A2H",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "lx"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.helligkeit_1_5",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "lx",
+          "device_class": "illuminance",
+          "friendly_name": "Helligkeit-1"
+        },
+        "last_changed": "2022-09-05T02:36:00.668073+00:00",
+        "last_updated": "2022-09-05T02:36:00.668073+00:00",
+        "context": {
+          "id": "01GC5R2D8W9RHCEF2G80FMFABC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "lx"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.luftdruck_2_3",
+        "state": "0.99",
+        "attributes": {
+          "unit_of_measurement": "mbar",
+          "device_class": "pressure",
+          "friendly_name": "Luftdruck-2"
+        },
+        "last_changed": "2022-09-05T02:35:59.811560+00:00",
+        "last_updated": "2022-09-05T02:35:59.811560+00:00",
+        "context": {
+          "id": "01GC5R2CE3RJS2CK99XH0VQJZZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "0.99",
+        "native_unit_of_measurement": "mbar"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.helligkeit_1_6",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "lx",
+          "device_class": "illuminance",
+          "friendly_name": "Helligkeit-1"
+        },
+        "last_changed": "2022-09-05T02:36:00.819007+00:00",
+        "last_updated": "2022-09-05T02:36:00.819007+00:00",
+        "context": {
+          "id": "01GC5R2DDKR7RMZ4GH6T77M7HP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "lx"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.luftdruck_2_4",
+        "state": "0.99",
+        "attributes": {
+          "unit_of_measurement": "mbar",
+          "device_class": "pressure",
+          "friendly_name": "Luftdruck-2"
+        },
+        "last_changed": "2022-09-05T02:36:00.365125+00:00",
+        "last_updated": "2022-09-05T02:36:00.365125+00:00",
+        "context": {
+          "id": "01GC5R2CZDDN6QQSM3Y31KNMTN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "0.99",
+        "native_unit_of_measurement": "mbar"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.luftdruck_2_5",
+        "state": "0.99",
+        "attributes": {
+          "unit_of_measurement": "mbar",
+          "device_class": "pressure",
+          "friendly_name": "Luftdruck-2"
+        },
+        "last_changed": "2022-09-05T02:36:00.668255+00:00",
+        "last_updated": "2022-09-05T02:36:00.668255+00:00",
+        "context": {
+          "id": "01GC5R2D8WBFAGAJE5FNQRE2HJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "0.99",
+        "native_unit_of_measurement": "mbar"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.co2_konzentration_3_3",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "ppm",
+          "device_class": "carbon_dioxide",
+          "friendly_name": "CO2-Konzentration-3"
+        },
+        "last_changed": "2022-09-05T02:35:59.811691+00:00",
+        "last_updated": "2022-09-05T02:35:59.811691+00:00",
+        "context": {
+          "id": "01GC5R2CE3Y0NYDJKM2YF4H0ZR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "ppm"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.luftdruck_2_6",
+        "state": "0.99",
+        "attributes": {
+          "unit_of_measurement": "mbar",
+          "device_class": "pressure",
+          "friendly_name": "Luftdruck-2"
+        },
+        "last_changed": "2022-09-05T02:36:00.819121+00:00",
+        "last_updated": "2022-09-05T02:36:00.819121+00:00",
+        "context": {
+          "id": "01GC5R2DDKKT71GBRB75VJHZ4Q",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "0.99",
+        "native_unit_of_measurement": "mbar"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.co2_konzentration_3_4",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "ppm",
+          "device_class": "carbon_dioxide",
+          "friendly_name": "CO2-Konzentration-3"
+        },
+        "last_changed": "2022-09-05T02:36:00.365226+00:00",
+        "last_updated": "2022-09-05T02:36:00.365226+00:00",
+        "context": {
+          "id": "01GC5R2CZD6X383MRP5TY7FQ9P",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "ppm"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.co2_konzentration_3_5",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "ppm",
+          "device_class": "carbon_dioxide",
+          "friendly_name": "CO2-Konzentration-3"
+        },
+        "last_changed": "2022-09-05T02:36:00.668381+00:00",
+        "last_updated": "2022-09-05T02:36:00.668381+00:00",
+        "context": {
+          "id": "01GC5R2D8WZMX1GWNPFG3131G8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "ppm"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.temperatur_4_3",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Temperatur-4"
+        },
+        "last_changed": "2022-09-05T02:35:59.811814+00:00",
+        "last_updated": "2022-09-05T02:35:59.811814+00:00",
+        "context": {
+          "id": "01GC5R2CE3Q3BDY5K555VB8J4R",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.co2_konzentration_3_6",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "ppm",
+          "device_class": "carbon_dioxide",
+          "friendly_name": "CO2-Konzentration-3"
+        },
+        "last_changed": "2022-09-05T02:36:00.819193+00:00",
+        "last_updated": "2022-09-05T02:36:00.819193+00:00",
+        "context": {
+          "id": "01GC5R2DDKRP70V74BMQTE38KF",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "ppm"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.temperatur_4_4",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Temperatur-4"
+        },
+        "last_changed": "2022-09-05T02:36:00.365315+00:00",
+        "last_updated": "2022-09-05T02:36:00.365315+00:00",
+        "context": {
+          "id": "01GC5R2CZDCXCPVRW0HD81R74A",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.temperatur_4_5",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Temperatur-4"
+        },
+        "last_changed": "2022-09-05T02:36:00.668500+00:00",
+        "last_updated": "2022-09-05T02:36:00.668500+00:00",
+        "context": {
+          "id": "01GC5R2D8WCV02SB6V2BZJTVBC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.temperatur_4_6",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Temperatur-4"
+        },
+        "last_changed": "2022-09-05T02:36:00.819260+00:00",
+        "last_updated": "2022-09-05T02:36:00.819260+00:00",
+        "context": {
+          "id": "01GC5R2DDK74ASQGB6GHFA8WNS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-09-05T02:37:10.937875+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.helligkeit_1_2",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "lx",
+          "device_class": "illuminance",
+          "friendly_name": "Helligkeit-1"
+        },
+        "last_changed": "2022-09-05T01:06:18.304277+00:00",
+        "last_updated": "2022-09-05T01:06:18.304277+00:00",
+        "context": {
+          "id": "01GC5JY520JWYW8SYP3A5Q4R85",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "lx"
+      },
+      "last_seen": "2022-09-05T01:07:47.895322+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.luftdruck_2_2",
+        "state": "0.99",
+        "attributes": {
+          "unit_of_measurement": "mbar",
+          "device_class": "pressure",
+          "friendly_name": "Luftdruck-2"
+        },
+        "last_changed": "2022-09-05T01:06:18.304478+00:00",
+        "last_updated": "2022-09-05T01:06:18.304478+00:00",
+        "context": {
+          "id": "01GC5JY520ZZD7E8H8M53W1RC2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "0.99",
+        "native_unit_of_measurement": "mbar"
+      },
+      "last_seen": "2022-09-05T01:07:47.895322+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.co2_konzentration_3_2",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "ppm",
+          "device_class": "carbon_dioxide",
+          "friendly_name": "CO2-Konzentration-3"
+        },
+        "last_changed": "2022-09-05T01:06:18.304603+00:00",
+        "last_updated": "2022-09-05T01:06:18.304603+00:00",
+        "context": {
+          "id": "01GC5JY520TWVHZBTMQXHC6FPH",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "ppm"
+      },
+      "last_seen": "2022-09-05T01:07:47.895322+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.temperatur_4_2",
+        "state": "99",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Temperatur-4"
+        },
+        "last_changed": "2022-09-05T01:06:18.304722+00:00",
+        "last_updated": "2022-09-05T01:06:18.304722+00:00",
+        "context": {
+          "id": "01GC5JY520B67PTMMR3V4HNAD7",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "99",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-09-05T01:07:47.895322+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.helligkeit",
+        "state": "54.16667",
+        "attributes": {
+          "unit_of_measurement": "lx",
+          "device_class": "illuminance",
+          "friendly_name": "Helligkeit"
+        },
+        "last_changed": "2022-09-04T21:00:37.631951+00:00",
+        "last_updated": "2022-09-04T21:00:37.631951+00:00",
+        "context": {
+          "id": "01GC54W9VZTS02V2SXT9TP0Z68",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "54.16667",
+        "native_unit_of_measurement": "lx"
+      },
+      "last_seen": "2022-09-04T21:00:47.327834+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.luftdruck",
+        "state": "1018.872",
+        "attributes": {
+          "unit_of_measurement": "mbar",
+          "device_class": "pressure",
+          "friendly_name": "Luftdruck"
+        },
+        "last_changed": "2022-09-04T21:00:37.632074+00:00",
+        "last_updated": "2022-09-04T21:00:37.632074+00:00",
+        "context": {
+          "id": "01GC54W9W069HTZEDCZMQ2C880",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1018.872",
+        "native_unit_of_measurement": "mbar"
+      },
+      "last_seen": "2022-09-04T21:00:47.327834+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.co2_konzentration",
+        "state": "441",
+        "attributes": {
+          "unit_of_measurement": "ppm",
+          "device_class": "carbon_dioxide",
+          "friendly_name": "CO2-Konzentration"
+        },
+        "last_changed": "2022-09-04T21:00:37.632140+00:00",
+        "last_updated": "2022-09-04T21:00:37.632140+00:00",
+        "context": {
+          "id": "01GC54W9W0PBXR4D08TRFGAK80",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "441",
+        "native_unit_of_measurement": "ppm"
+      },
+      "last_seen": "2022-09-04T21:00:47.327834+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.temperatur",
+        "state": "23.6875",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Temperatur"
+        },
+        "last_changed": "2022-09-04T21:00:37.632202+00:00",
+        "last_updated": "2022-09-04T21:00:37.632202+00:00",
+        "context": {
+          "id": "01GC54W9W0XAE19TAZYMCWFNAT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "23.6875",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-09-04T21:00:47.327834+00:00"
+    }
+  ]
+}

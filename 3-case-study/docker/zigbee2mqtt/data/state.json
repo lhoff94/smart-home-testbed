@@ -1,0 +1,26 @@
+{
+    "0x00124b00245427d4": {
+        "occupancy": true,
+        "tamper": false,
+        "battery_low": false,
+        "voltage": 2700,
+        "battery": 9,
+        "linkquality": 96
+    },
+    "0xb4e3f9fffeb3513e": {
+        "battery": 100,
+        "update": {
+            "state": "idle"
+        },
+        "linkquality": 105
+    },
+    "0x2c1165fffe877958": {
+        "color_mode": "color_temp",
+        "state": "ON",
+        "brightness": 119,
+        "color_temp": 411,
+        "update": {
+            "state": "idle"
+        }
+    }
+}

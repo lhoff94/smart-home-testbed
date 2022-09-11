@@ -1,0 +1,18 @@
+info  2022-09-10 22:02:49: Logging to directory: '/app/data/log/2022-09-10.22-02-49' filename: log.txt
+info  2022-09-10 22:02:49: Starting Zigbee2MQTT version 1.27.0 (commit #a9b8808)
+info  2022-09-10 22:02:49: Starting zigbee-herdsman (0.14.46)
+info  2022-09-10 22:02:49: zigbee-herdsman started (resumed)
+info  2022-09-10 22:02:49: Coordinator firmware version: '{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20210708,"transportrev":2},"type":"zStack3x0"}'
+info  2022-09-10 22:02:49: Currently 3 devices are joined:
+info  2022-09-10 22:02:49: RemoteControll (0xb4e3f9fffeb3513e): E2001/E2002 - IKEA STYRBAR remote control N2 (EndDevice)
+info  2022-09-10 22:02:49: MotionSensor (0x00124b00245427d4): SNZB-03 - SONOFF Motion sensor (EndDevice)
+info  2022-09-10 22:02:49: ZigbeeBulb (0x2c1165fffe877958): LED2002G5 - IKEA TRADFRI LED bulb E14/E12 470 lumen, dimmable, white spectrum, clear (Router)
+warn  2022-09-10 22:02:49: `permit_join` set to  `true` in configuration.yaml.
+warn  2022-09-10 22:02:49: Allowing new devices to join.
+warn  2022-09-10 22:02:49: Set `permit_join` to `false` once you joined all devices.
+info  2022-09-10 22:02:49: Zigbee: allowing new devices to join.
+info  2022-09-10 22:02:49: Connecting to MQTT server at mqtt://mosquittoserver
+error 2022-09-10 22:02:49: MQTT failed to connect: getaddrinfo ENOTFOUND mosquittoserver
+error 2022-09-10 22:02:49: Exiting...
+info  2022-09-10 22:02:49: Stopping zigbee-herdsman...
+info  2022-09-10 22:02:58: Stopped zigbee-herdsman

@@ -1,0 +1,4 @@
+2022-09-08 13:40:17.461 ERROR (MainThread) [homeassistant.components.automation] Platform automation does not generate unique IDs. ID 1662505681624 already exists - ignoring automation.neue_automatisierung
+2022-09-08 13:40:20.497 ERROR (MainThread) [homeassistant.components.mqtt.client] Failed to connect to MQTT server due to exception: [Errno 113] Host is unreachable
+2022-09-08 13:42:26.490 WARNING (Thread-2 (_thread_main)) [homeassistant.components.mqtt.client] Disconnected from MQTT server mosquittoserver:1883 (16)
+2022-09-08 13:42:26.493 WARNING (Thread-2 (_thread_main)) [homeassistant.components.mqtt.client] Disconnected from MQTT server mosquittoserver:1883 (16)

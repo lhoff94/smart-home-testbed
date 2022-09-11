@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.marvis",
+        "state": "unknown",
+        "attributes": {
+          "editable": false,
+          "id": "marvis",
+          "user_id": "3ac3b75756ef48b9a40439953b3640b7",
+          "friendly_name": "marvis"
+        },
+        "last_changed": "2022-09-10T13:00:28.552063+00:00",
+        "last_updated": "2022-09-10T13:00:29.813186+00:00",
+        "context": {
+          "id": "01GCKQSF7N9GWFG4T0PQ7ZBXMN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-10T13:12:06.629443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.new_automation",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-08-29T22:22:17.590894+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1661469166752",
+          "friendly_name": "ZigbeeBulb On"
+        },
+        "last_changed": "2022-09-10T13:00:29.584566+00:00",
+        "last_updated": "2022-09-10T13:00:29.584566+00:00",
+        "context": {
+          "id": "01GCKQSF0G6R4XN218GNNV3YPD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-10T13:12:06.629443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.zigbeebulb_off",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-08-29T22:22:07.290902+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1661469229369",
+          "friendly_name": "ZigbeeBulb Off"
+        },
+        "last_changed": "2022-09-10T13:00:29.584643+00:00",
+        "last_updated": "2022-09-10T13:00:29.584643+00:00",
+        "context": {
+          "id": "01GCKQSF0G2WTEN4BV59A30J3V",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-10T13:12:06.629443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.new_automation_2",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-08-29T22:22:01.660578+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1661469299386",
+          "friendly_name": "ZigbeeBulbBrighter"
+        },
+        "last_changed": "2022-09-10T13:00:29.584708+00:00",
+        "last_updated": "2022-09-10T13:00:29.584708+00:00",
+        "context": {
+          "id": "01GCKQSF0GZ2ECPQTE5J55RHF3",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-10T13:12:06.629443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.zigbeebulb_darker",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-08-29T22:22:00.437121+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1661469340189",
+          "friendly_name": "ZigbeeBulb Darker"
+        },
+        "last_changed": "2022-09-10T13:00:29.584775+00:00",
+        "last_updated": "2022-09-10T13:00:29.584775+00:00",
+        "context": {
+          "id": "01GCKQSF0GPEBK304VW5VFX6F4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-10T13:12:06.629443+00:00"
+    }
+  ]
+}

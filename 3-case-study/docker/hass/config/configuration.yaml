@@ -1,0 +1,21 @@
+
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+# MQTT Devices
+mqtt:
+  binary_sensor:
+    - state_topic: "stat/tasmota_6032FD/SWITCH1"
+      name: "Shelly-i3R-Switch1"
+    - state_topic: "stat/tasmota_6032FD/SWITCH2"
+      name: "Shelly-i3R-Switch2"
+    - state_topic: "stat/tasmota_6032FD/SWITCH3"
+      name: "Shelly-i3R-Switch3"
