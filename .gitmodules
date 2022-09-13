@@ -7,3 +7,6 @@
 [submodule "4-case-study/MicroPython-smart-home-client"]
 	path = 4-case-study/MicroPython-smart-home-client
 	url = https://github.com/lhoff94/MicroPython-smart-home-client
+[submodule "4-case-study/servicenode/mhz19-mock"]
+	path = 4-case-study/servicenode/mhz19-mock
+	url = https://github.com/lhoff94/mhz19-mock.git

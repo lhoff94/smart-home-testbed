@@ -1,22 +1,4 @@
-from marvis import ArgumentParser, Network, DockerNode,SwitchNode, Scenario, InterfaceNode
-from marvis.command_executor import SSHCommandExecutor
-
-import paramiko
-
-
-def prepare_mc(tty, ip, username, password, firmware, node_name):
-    firmware_path = "firmware/" + firmware
-    client = paramiko.SSHClient()
-    client.load_system_host_keys()
-    client.connect(ip, username=username, password=password)
-    service_node = SSHCommandExecutor("service_node",client)
-    service_node.execute(f"invoke erase-flash --tty '{tty}'")
-    service_node.execute(f"invoke flash-image --tty '{tty}' --path '{firmware_path}'")
-    service_node.execute(f"invoke reset-mc")
-    service_node.execute(f"invoke set-sensor-name --name '{node_name}' --path 'MicroPython-smart-home-client/config.json'")
-    service_node.execute(f"invoke copy-program --tty '{tty}' --src-path 'MicroPython-smart-home-client/' --dest-path ':' ")
-    service_node.execute(f"invoke reset-mc")
-
+from marvis import ArgumentParser, Network, DockerNode,SwitchNode, Scenario, InterfaceNode, ServiceNode
 
 def main():
     scenario = Scenario()
@@ -58,20 +40,48 @@ def main():
     channel_client1.connect(mpymqttclient)
     channel_client1.connect(switch)
 
-    # Setup Microcontroller
-    # Microcontroller are connected to Raspberry Pi
-    prepare_mc("/dev/ttyUSB1","172.16.0.107","pi", "pi-passwd", "esp32-v1.18.bin", "ESP-1" )
+    servicenode1 = ServiceNode(
+        'servicenode1',
+        ip='raspi',
+        username='pi',
+        password='pi-passwd',
+        payload={
+            "servicenode/tasks.py":"tasks.py",
+            "servicenode/mock.py":"mock.py",
+            "servicenode/config-esp1.json":"config-esp1.json",
+            "servicenode/config-esp2.json":"config-esp2.json",
+            "servicenode/esp32-20220117-v1.18.bin":"esp32-v1.18.bin",
+            "servicenode/esp32-20220617-v1.19.bin":"esp32-v1.19.bin",
+            "servicenode/esp32-20220618-v1.19.1.bin":"esp32-v1.19.1.bin"
+        }
+    )
+    scenario.add_servicenode(servicenode1)
+
+    @servicenode1.preparation
+    def init_both_esps():
+        servicenode1.execute_action("git clone https://github.com/lhoff94/MicroPython-smart-home-client.git")
+        servicenode1.execute_action("invoke prepare-all --tty '/dev/ttyUSB1' --fw-path 'esp32-v1.18.bin' --src-path 'MicroPython-smart-home-client/' --dest-path ':' --boot-pin '23' --reset-pin '24'")
+        servicenode1.execute_action("invoke copy-file --tty '/dev/ttyUSB1' --src-path 'config-esp1.json' --dest-path :config.json")
+
+
+    @servicenode1.cleaning_up
+    def defer_gpio():
+        servicenode1.execute_action("invoke defer-gpio")
+
 
     @scenario.workflow
     def cycle_version(workflow):
         workflow.sleep(330)
         mpymqttclient.docker_image = 'lhoff94/micropython-runtime:v1.19'
-        prepare_mc("/dev/ttyUSB1","172.16.0.107","pi", "pi-passwd", "esp32-v1.19.bin", "ESP-1" )
+        servicenode1.execute_action("invoke prepare-all --tty '/dev/ttyUSB1' --fw-path 'esp32-v1.19.bin' --src-path 'MicroPython-smart-home-client/' --dest-path ':' --boot-pin '23' --reset-pin '24'")
+        servicenode1.execute_action("invoke copy-file --tty '/dev/ttyUSB1' --src-path 'config-esp1.json' --dest-path :config.json")
         mpymqttclient.build_docker_image()
         workflow.sleep(330)
         mpymqttclient.docker_image = 'lhoff94/micropython-runtime:v1.19.1'
-        prepare_mc("/dev/ttyUSB1","172.16.0.107","pi", "pi-passwd", "esp32-v1.19.1.bin", "ESP-1" )
+        servicenode1.execute_action("invoke prepare-all --tty '/dev/ttyUSB1' --fw-path 'esp32-v1.19.1.bin' --src-path 'MicroPython-smart-home-client/' --dest-path ':' --boot-pin '23' --reset-pin '24'")
+        servicenode1.execute_action("invoke copy-file --tty '/dev/ttyUSB1' --src-path 'config-esp1.json' --dest-path :config.json")
         mpymqttclient.build_docker_image()
+
 
     scenario.add_network(net)
 

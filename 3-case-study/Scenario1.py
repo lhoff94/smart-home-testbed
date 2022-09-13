@@ -1,4 +1,8 @@
-from marvis import ArgumentParser, Network, DockerNode,SwitchNode, Scenario, InterfaceNode
+from marvis import ArgumentParser, Network, DockerNode,SwitchNode, Scenario, InterfaceNode, ServiceNode
+
+import logging
+logger = logging.getLogger(__name__)
+
 def main():
     scenario = Scenario()
 
@@ -44,7 +48,43 @@ def main():
     channel_sub.connect(hass)
     channel_sub.connect(switch)
 
+    servicenode1 = ServiceNode(
+        'servicenode1',
+        ip='raspi',
+        username='pi',
+        password='pi-passwd',
+        payload={
+            "servicenode/tasks.py":"tasks.py",
+            "servicenode/mock.py":"mock.py",
+            "servicenode/config-esp1.json":"config-esp1.json",
+            "servicenode/config-esp2.json":"config-esp2.json",
+            "servicenode/esp32-20220117-v1.18.bin":"esp32-v1.18.bin",
+            "servicenode/esp32-20220617-v1.19.bin":"esp32-v1.19.bin",
+            "servicenode/esp32-20220618-v1.19.1.bin":"esp32-v1.19.1.bin"
+        }
+    )
+    scenario.add_servicenode(servicenode1)
+
+    @servicenode1.cleaning_up
+    def defer_gpio():
+        servicenode1.execute_action("invoke defer-gpio")
+
+    
+    @scenario.workflow
+    def test_reconnecting(workflow):
+        workflow.sleep(30)
+        servicenode1.execute_action("invoke push-styrbar --button='on'")
+        servicenode1.execute_action("invoke relay --num='one' --state='on'")
+        workflow.sleep(10)
+        if servicenode1.execute_action("invoke light-status --pin='27'") and servicenode1.execute_action("invoke light-status --pin='22'"):
+            logger.info("Test passed")
+        else:
+            logger.error("Test failed")
+
     scenario.add_network(net)
+
+
+
 
     with scenario as sim:
         # To simulate forever, do not specify the simulation_time parameter.

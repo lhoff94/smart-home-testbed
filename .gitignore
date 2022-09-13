@@ -1,8 +1,19 @@
 #Ignore Logs directories
 1-case-study/docker/zigbee2mqtt/data/log
 2-case-study/docker/zigbee2mqtt/data/log
+1-case-study/docker/zigbee2mqtt/data2/log
+2-case-study/docker/zigbee2mqtt/data2/log
+3-case-study/docker/zigbee2mqtt/data/log
+4-case-study/docker/zigbee2mqtt/data/log
+3-case-study/docker/zigbee2mqtt/data2/log
+4-case-study/docker/zigbee2mqtt/data2/log
+
+
 core
 cleanup
+config-esp1.json
+config-esp2.json
+*bin
 
 simulation-logs
 
