@@ -55,19 +55,15 @@ def main():
         password='pi-passwd',
         payload={
             "servicenode/tasks.py":"tasks.py",
-            "servicenode/mock.py":"mock.py",
-            "servicenode/config-esp1.json":"config-esp1.json",
-            "servicenode/config-esp2.json":"config-esp2.json",
-            "servicenode/esp32-20220117-v1.18.bin":"esp32-v1.18.bin",
-            "servicenode/esp32-20220617-v1.19.bin":"esp32-v1.19.bin",
-            "servicenode/esp32-20220618-v1.19.1.bin":"esp32-v1.19.1.bin"
         }
     )
     scenario.add_servicenode(servicenode1)
-
+    
     @servicenode1.cleaning_up
-    def defer_gpio():
+    def defer_gpio_and_lgiths():
         servicenode1.execute_action("invoke defer-gpio")
+        servicenode1.execute_action("invoke push-styrbar --button='off'")
+        servicenode1.execute_action("invoke relay --num='one' --state='off'")
 
     
     @scenario.workflow
@@ -80,6 +76,7 @@ def main():
             logger.info("Test passed")
         else:
             logger.error("Test failed")
+
 
     scenario.add_network(net)
 
